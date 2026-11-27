@@ -257,7 +257,7 @@ export function AnalyticsBento({
               </div>
             </div>
 
-            <div className={styles.punctBar} aria-label="34% early, 66% late">
+            <div className={styles.punctBar} role="img" aria-label="34% early, 66% late">
               <div style={{ width: '34%', background: '#95b500', borderRadius: 999 }} />
               <div style={{ width: '66%', background: '#f49d0b', borderRadius: 999 }} />
             </div>

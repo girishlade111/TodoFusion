@@ -17,7 +17,7 @@ html.dark,
   --text-primary: #ffffff;
   --text-secondary: #a4a7ae;
   --text-muted: #94979e;
-  --text-heading-muted: #6f727a;
+  --text-heading-muted: #7a7e87;
   --text-inverse: #121218;
   --text-inverse-muted: #5c5f66;
 
@@ -26,8 +26,8 @@ html.dark,
   --border-faint: rgba(255, 255, 255, 0.06);
   --divider: #24242a;
 
-  --button-primary-bg: linear-gradient(180deg, #9845ff 0%, #8624ff 100%);
-  --button-primary-hover: linear-gradient(180deg, #8b33ff 0%, #7808ff 100%);
+  --button-primary-bg: linear-gradient(180deg, #8b33ff 0%, #730de8 100%);
+  --button-primary-hover: linear-gradient(180deg, #7f24f5 0%, #6606d4 100%);
   --button-primary-text: #ffffff;
   --button-secondary-bg: #24242a;
   --button-secondary-hover: #2d2d35;

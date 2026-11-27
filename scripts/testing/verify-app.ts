@@ -97,9 +97,23 @@ async function main() {
 
   const routeReport: Array<{ route: string; status: number | null; brokenImgs: number; overflow: boolean }> = [];
   for (const route of ALL_ROUTES) {
-    const resp = await page.goto(`${BASE_URL}${route}`, { waitUntil: 'domcontentloaded', timeout: 25000 });
-    await page.evaluate(() => document.fonts.ready);
-    await page.waitForTimeout(150);
+    const resp = await page.goto(`${BASE_URL}${route}`, { waitUntil: 'networkidle', timeout: 25000 }).catch(() =>
+      page.goto(`${BASE_URL}${route}`, { waitUntil: 'domcontentloaded', timeout: 25000 })
+    );
+    await page.evaluate(async () => {
+      await document.fonts.ready;
+      const imgs = Array.from(document.querySelectorAll('img'));
+      await Promise.all(
+        imgs.map((img) => {
+          if (img.complete) return Promise.resolve();
+          return new Promise((res) => {
+            img.addEventListener('load', res, { once: true });
+            img.addEventListener('error', res, { once: true });
+            setTimeout(res, 2500);
+          });
+        })
+      );
+    });
     const check = await page.evaluate(() => {
       const brokenImgs = Array.from(document.querySelectorAll('img')).filter(
         (img) => !img.complete || img.naturalWidth === 0

@@ -25,8 +25,8 @@ html.light,
   --border-faint: rgba(18, 18, 24, 0.06);
   --divider: #e0e2e6;
 
-  --button-primary-bg: linear-gradient(180deg, #9845ff 0%, #8624ff 100%);
-  --button-primary-hover: linear-gradient(180deg, #8b33ff 0%, #7808ff 100%);
+  --button-primary-bg: linear-gradient(180deg, #8b33ff 0%, #730de8 100%);
+  --button-primary-hover: linear-gradient(180deg, #7f24f5 0%, #6606d4 100%);
   --button-primary-text: #ffffff;
   --button-secondary-bg: #ffffff;
   --button-secondary-hover: #f1f2f4;

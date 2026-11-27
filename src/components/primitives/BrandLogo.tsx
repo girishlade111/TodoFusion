@@ -47,7 +47,7 @@ export function BrandLogo({ showWordmark = false, href = '/', size = 32 }: Brand
       {showWordmark ? (
         <span style={{ fontSize: 18, fontWeight: 600, letterSpacing: '-0.02em', lineHeight: 1 }}>
           <span style={{ color: 'var(--text-primary)' }}>Todo</span>
-          <span style={{ color: 'var(--text-heading-muted)' }}>Fusion</span>
+          <span style={{ color: 'var(--text-secondary)' }}>Fusion</span>
         </span>
       ) : null}
     </span>

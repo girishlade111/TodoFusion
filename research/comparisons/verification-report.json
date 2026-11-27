@@ -1,7 +1,7 @@
 {
   "routesChecked": 44,
   "routesAll200": true,
-  "brokenImagesTotal": 22,
+  "brokenImagesTotal": 0,
   "desktopOverflowCount": 0,
   "status404": 404,
   "themes": {
@@ -30,13 +30,8 @@
   },
   "a11yResults": {
     "/": {
-      "violations": 2,
+      "violations": 1,
       "details": [
-        {
-          "id": "aria-prohibited-attr",
-          "impact": "serious",
-          "nodes": 1
-        },
         {
           "id": "color-contrast",
           "impact": "serious",
@@ -45,14 +40,8 @@
       ]
     },
     "/features": {
-      "violations": 1,
-      "details": [
-        {
-          "id": "aria-prohibited-attr",
-          "impact": "serious",
-          "nodes": 1
-        }
-      ]
+      "violations": 0,
+      "details": []
     },
     "/pricing": {
       "violations": 0,
@@ -63,14 +52,8 @@
       "details": []
     },
     "/docs": {
-      "violations": 1,
-      "details": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "nodes": 1
-        }
-      ]
+      "violations": 0,
+      "details": []
     },
     "/contact/sales": {
       "violations": 0,
@@ -81,14 +64,14 @@
     "darkCompare": {
       "width": 1440,
       "height": 3000,
-      "diffPixels": 503583,
-      "diffPercent": 11.66
+      "diffPixels": 476496,
+      "diffPercent": 11.03
     },
     "lightCompare": {
       "width": 1440,
       "height": 3000,
-      "diffPixels": 529804,
-      "diffPercent": 12.26
+      "diffPixels": 532438,
+      "diffPercent": 12.32
     }
   },
   "routeReport": [
@@ -161,7 +144,7 @@
     {
       "route": "/uikit",
       "status": 200,
-      "brokenImgs": 22,
+      "brokenImgs": 0,
       "overflow": false
     },
     {
