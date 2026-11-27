@@ -1,0 +1,604 @@
+{
+  "homeThemeBefore": {
+    "bg": "rgb(18, 18, 24)",
+    "htmlClass": "dark",
+    "localStorage": {}
+  },
+  "resourcesDropdownText": [
+    {
+      "text": "",
+      "href": "./",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "href": "./",
+      "visible": true
+    },
+    {
+      "text": "Pricing",
+      "href": "./pricing",
+      "visible": true
+    },
+    {
+      "text": "Docs",
+      "href": "./docs",
+      "visible": true
+    },
+    {
+      "text": "UI Kit",
+      "href": "./uikit",
+      "visible": true
+    },
+    {
+      "text": "Remix Template",
+      "href": "https://stylokit.lemonsqueezy.com/buy/90428c62-5437-4f6f-9758-5db5fb3f9746",
+      "visible": true
+    },
+    {
+      "text": "Get Started",
+      "href": "https://stylokit.lemonsqueezy.com/buy/90428c62-5437-4f6f-9758-5db5fb3f9746",
+      "visible": true
+    },
+    {
+      "text": "See how it works",
+      "href": "./#feature-section-1",
+      "visible": true
+    },
+    {
+      "text": "Get Started",
+      "href": "https://stylokit.lemonsqueezy.com/buy/90428c62-5437-4f6f-9758-5db5fb3f9746",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "href": "./",
+      "visible": true
+    },
+    {
+      "text": "About",
+      "href": "./about",
+      "visible": true
+    },
+    {
+      "text": "Pricing",
+      "href": "./pricing",
+      "visible": true
+    },
+    {
+      "text": "Contact",
+      "href": "./contact",
+      "visible": true
+    },
+    {
+      "text": "Features",
+      "href": "./features",
+      "visible": true
+    },
+    {
+      "text": "Integrations",
+      "href": "./integrations",
+      "visible": true
+    },
+    {
+      "text": "Docs",
+      "href": "./docs",
+      "visible": true
+    },
+    {
+      "text": "Blog",
+      "href": "./blog",
+      "visible": true
+    },
+    {
+      "text": "UI Kit",
+      "href": "./uikit",
+      "visible": true
+    },
+    {
+      "text": "Helpcenter",
+      "href": "./helpcenter",
+      "visible": true
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "./privacy-policy",
+      "visible": true
+    },
+    {
+      "text": "Stylokit",
+      "href": "https://stylokit.com/",
+      "visible": true
+    },
+    {
+      "text": "Framer",
+      "href": "https://www.framer.com/?via=dmytri_design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Dmytri_Design",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://www.linkedin.com/in/dmytri-design/",
+      "visible": true
+    },
+    {
+      "text": "",
+      "href": "https://dribbble.com/dmytriDesign",
+      "visible": true
+    },
+    {
+      "text": "Features",
+      "href": "./features",
+      "visible": true
+    },
+    {
+      "text": "Integrations",
+      "href": "./integrations",
+      "visible": true
+    },
+    {
+      "text": "About",
+      "href": "./about",
+      "visible": true
+    },
+    {
+      "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+      "href": "https://www.framer.com",
+      "visible": true
+    }
+  ],
+  "themeToggleCandidates": [
+    {
+      "tag": "A",
+      "name": "32xs32 (only icon)",
+      "ariaLabel": null,
+      "rect": {
+        "x": 144,
+        "y": 34,
+        "width": 32,
+        "height": 32,
+        "top": 34,
+        "right": 176,
+        "bottom": 66,
+        "left": 144
+      },
+      "html": "<a class=\"framer-SXHrU framer-iA4Rk framer-dD2hi framer-13jtjwz framer-v-13jtjwz framer-1l474jb\" data-framer-name=\"32xs32 (only icon)\" href=\"./\" data-framer-page-link-current=\"true\" style=\"height: 100%; width: 100%; transform: none; transform-origin: 50% 50% 0px;\"><div class=\"framer-1simqad\" data-fr"
+    },
+    {
+      "tag": "DIV",
+      "name": "Logo",
+      "ariaLabel": null,
+      "rect": {
+        "x": 144,
+        "y": 34,
+        "width": 32,
+        "height": 32,
+        "top": 34,
+        "right": 176,
+        "bottom": 66,
+        "left": 144
+      },
+      "html": "<div class=\"framer-1simqad\" data-framer-name=\"Logo\" style=\"background-color: var(--token-992db5b5-8e87-43ba-a423-bd7307a80421, rgb(36, 36, 42)); border-radius: 8px; box-shadow: none; transform: none; transform-origin: 50% 50% 0px;\"><div class=\"framer-n9saa6\" data-framer-name=\"Logo wrap\" style=\"trans"
+    },
+    {
+      "tag": "DIV",
+      "name": "Label",
+      "ariaLabel": null,
+      "rect": {
+        "x": 208,
+        "y": 39,
+        "width": 42.3125,
+        "height": 22,
+        "top": 39,
+        "right": 250.3125,
+        "bottom": 61,
+        "left": 208
+      },
+      "html": "<div class=\"framer-1f1r8ot\" data-framer-name=\"Label\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-1w1cjl5: var(--token-464c598b-543f-4ed5-b0b0-d7f1c4a938d9, rgb(36, 36, 42)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; t"
+    },
+    {
+      "tag": "DIV",
+      "name": "Label",
+      "ariaLabel": null,
+      "rect": {
+        "x": 414.03125,
+        "y": 39,
+        "width": 49.34375,
+        "height": 22,
+        "top": 39,
+        "right": 463.375,
+        "bottom": 61,
+        "left": 414.03125
+      },
+      "html": "<div class=\"framer-1f1r8ot\" data-framer-name=\"Label\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-1w1cjl5: var(--token-464c598b-543f-4ed5-b0b0-d7f1c4a938d9, rgb(36, 36, 42)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; t"
+    },
+    {
+      "tag": "DIV",
+      "name": "Label",
+      "ariaLabel": null,
+      "rect": {
+        "x": 499.375,
+        "y": 39,
+        "width": 35.5,
+        "height": 22,
+        "top": 39,
+        "right": 534.875,
+        "bottom": 61,
+        "left": 499.375
+      },
+      "html": "<div class=\"framer-1f1r8ot\" data-framer-name=\"Label\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-1w1cjl5: var(--token-464c598b-543f-4ed5-b0b0-d7f1c4a938d9, rgb(36, 36, 42)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; t"
+    },
+    {
+      "tag": "DIV",
+      "name": "Label",
+      "ariaLabel": null,
+      "rect": {
+        "x": 570.875,
+        "y": 39,
+        "width": 37.25,
+        "height": 22,
+        "top": 39,
+        "right": 608.125,
+        "bottom": 61,
+        "left": 570.875
+      },
+      "html": "<div class=\"framer-1f1r8ot\" data-framer-name=\"Label\" data-framer-component-type=\"RichTextContainer\" style=\"--extracted-1w1cjl5: var(--token-464c598b-543f-4ed5-b0b0-d7f1c4a938d9, rgb(36, 36, 42)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; t"
+    }
+  ],
+  "faqAnswers": {
+    "What is TodoFusion?": "What is TodoFusion?\n\nA task management app designed to boost your productivity with smart integrations.",
+    "Integration details?": "Integration details?\n\nSyncs seamlessly with Notion and Google for streamlined task and calendar management.",
+    "Main features?": "Main features?\n\nIncludes task prioritization, productivity tracking, collaboration, and rewards.",
+    "Mobile availability?": "Mobile availability?\n\nAvailable on iOS and Android, with full functionality.",
+    "Task sharing possible?": "Task sharing possible?\n\nYes, supports sharing and collaborative progress tracking.",
+    "Customer support options?": "Customer support options?\n\nOffers 24/7 support via email, phone, and live chat."
+  },
+  "pricingTestimonials": [
+    {
+      "avatar": "https://framerusercontent.com/images/U06B9sXPfIJH61lq23ex7v0fY0.png",
+      "textSnippet": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\n\nPRICING\n\nSimple pricing\n\nTransform task management with TodoFusion. Combine powerful to-do lists, productivity tracking, and seamless integrations to stay focused and achieve more\n\nMonthly plan\n\nFlexible and affordable. Boost your productivity month by month.\n\n$4.9\nmonthly\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\n\nFull access to all features\n\nRegular updates and new features\n\nPremium support\n\nNo recurring fees\n\nPay once lifetime\n\nOne-time payment. Unlimited access forever. Ultimate productivity investment.\n\n$99\none-time payment\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\n\nFull access to all features\n\nRegular updates and new features\n\nPremium support\n\nNo recurring fees\n\n\"TodoFusion streamlined our workflows and doubled our productivity within just three months!\"\nEmily Smith\n\nCEO, Codify\n\nFrequently Asked Questions\n\nSeamlessly use your preferred tools for unified work, start to finish.\n\nWhat is TodoFusion?\nIntegration details?\nMain features?\nMobile availability?\nTask sharing possible?\nCustomer support options?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies."
+    },
+    {
+      "avatar": "https://framerusercontent.com/images/jHYD50CG2aJRz34ro4OYrlsLDQ.jpg?width=541&height=541",
+      "textSnippet": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\n\nPRICING\n\nSimple pricing\n\nTransform task management with TodoFusion. Combine powerful to-do lists, productivity tracking, and seamless integrations to stay focused and achieve more\n\nMonthly plan\n\nFlexible and affordable. Boost your productivity month by month.\n\n$4.9\nmonthly\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\n\nFull access to all features\n\nRegular updates and new features\n\nPremium support\n\nNo recurring fees\n\nPay once lifetime\n\nOne-time payment. Unlimited access forever. Ultimate productivity investment.\n\n$99\none-time payment\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\n\nFull access to all features\n\nRegular updates and new features\n\nPremium support\n\nNo recurring fees\n\n\"TodoFusion streamlined our workflows and doubled our productivity within just three months!\"\nEmily Smith\n\nCEO, Codify\n\nFrequently Asked Questions\n\nSeamlessly use your preferred tools for unified work, start to finish.\n\nWhat is TodoFusion?\nIntegration details?\nMain features?\nMobile availability?\nTask sharing possible?\nCustomer support options?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies."
+    },
+    {
+      "avatar": "https://framerusercontent.com/images/nFTyhTg9mtSiD0Oh51DGHixETM.jpg?width=583&height=583",
+      "textSnippet": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\n\nPRICING\n\nSimple pricing\n\nTransform task management with TodoFusion. Combine powerful to-do lists, productivity tracking, and seamless integrations to stay focused and achieve more\n\nMonthly plan\n\nFlexible and affordable. Boost your productivity month by month.\n\n$4.9\nmonthly\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\n\nFull access to all features\n\nRegular updates and new features\n\nPremium support\n\nNo recurring fees\n\nPay once lifetime\n\nOne-time payment. Unlimited access forever. Ultimate productivity investment.\n\n$99\none-time payment\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\n\nFull access to all features\n\nRegular updates and new features\n\nPremium support\n\nNo recurring fees\n\n\"TodoFusion streamlined our workflows and doubled our productivity within just three months!\"\nEmily Smith\n\nCEO, Codify\n\nFrequently Asked Questions\n\nSeamlessly use your preferred tools for unified work, start to finish.\n\nWhat is TodoFusion?\nIntegration details?\nMain features?\nMobile availability?\nTask sharing possible?\nCustomer support options?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies."
+    }
+  ],
+  "helpcenter": {
+    "category_All": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\nHow can we help?\n\nFind the answers to all your questions.\n\nSearch something\nFilter by:\nAll\nCompany\nGet Started\nServices\nWhat should I do if I am experiencing issues with your service?\nHow can I upgrade my current service package?\nAre there any subscription plans for your services?\nWhat types of customer support do you offer?\nHow does your company ensure customer data privacy?\nWhat are your company’s core values?\nWhere is your company located?\nWhat is the history of your company?\nCan I customize my settings as a new user?\nIs there a tutorial available for new users?\nWhat do I need to start using your services immediately after registration?\nHow do I create an account with your service?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "category_Company": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\nHow can we help?\n\nFind the answers to all your questions.\n\nSearch something\nFilter by:\nAll\nCompany\nGet Started\nServices\nHow does your company ensure customer data privacy?\nWhat are your company’s core values?\nWhere is your company located?\nWhat is the history of your company?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "category_Get Started": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\nHow can we help?\n\nFind the answers to all your questions.\n\nSearch something\nFilter by:\nAll\nCompany\nGet Started\nServices\nCan I customize my settings as a new user?\nIs there a tutorial available for new users?\nWhat do I need to start using your services immediately after registration?\nHow do I create an account with your service?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "category_Services": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\nHow can we help?\n\nFind the answers to all your questions.\n\nSearch something\nFilter by:\nAll\nCompany\nGet Started\nServices\nWhat should I do if I am experiencing issues with your service?\nHow can I upgrade my current service package?\nAre there any subscription plans for your services?\nWhat types of customer support do you offer?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "questionsExpanded": {}
+  },
+  "salesForm": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "Name",
+      "placeholder": "David Johnson",
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "name": "Email",
+      "placeholder": "david@stylokit.com",
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "name": "Size",
+      "placeholder": null,
+      "required": true,
+      "options": [
+        {
+          "value": "1-50",
+          "text": "1-50"
+        },
+        {
+          "value": "50-100",
+          "text": "50-100"
+        },
+        {
+          "value": "100-500",
+          "text": "100-500"
+        },
+        {
+          "value": "500-1000",
+          "text": "500-1000"
+        },
+        {
+          "value": "1000-5000",
+          "text": "1000-5000"
+        },
+        {
+          "value": "5000+",
+          "text": "5000+"
+        }
+      ],
+      "text": "1-5050-100100-500500-10001000-50005000+"
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "name": "Name",
+      "placeholder": "I'd like to learn more about...",
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "name": null,
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": "Submit"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "website",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "company",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "message",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "subject",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "title",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "description",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "feedback",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "notes",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "details",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "remarks",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "comments",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "name": "Email",
+      "placeholder": "Enter your email",
+      "required": true,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "name": null,
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": "Subscribe"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "website",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "company",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "message",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "subject",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "title",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "description",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "feedback",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "notes",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "details",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "remarks",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "comments",
+      "placeholder": null,
+      "required": false,
+      "options": null,
+      "text": ""
+    }
+  ]
+}
