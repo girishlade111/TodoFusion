@@ -68,7 +68,7 @@ async function main() {
   // Click Resources dropdown in header
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.waitForTimeout(300);
-  const resEl = page.locator('header').getByText('Resources').first();
+  const resEl = page.getByText('Resources', { exact: true }).first();
   const resBox = await resEl.boundingBox();
   if (resBox) {
     await page.mouse.move(resBox.x + resBox.width / 2, resBox.y + resBox.height / 2);
@@ -95,8 +95,15 @@ async function main() {
   }
 
   // Toggle to Light Mode and read tokens
-  const moonSvg = page.locator('header svg').last();
-  const moonBox = await moonSvg.boundingBox();
+  const moonBox = await page.evaluate(() => {
+    const svgs = Array.from(document.querySelectorAll('svg')).filter((s) => {
+      const r = s.getBoundingClientRect();
+      return r.top < 100 && r.left > 900 && r.width >= 14 && r.width <= 36;
+    });
+    if (!svgs[0]) return null;
+    const r = svgs[0].getBoundingClientRect();
+    return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+  });
   if (moonBox) {
     await page.mouse.click(moonBox.x + moonBox.width / 2, moonBox.y + moonBox.height / 2);
     await page.waitForTimeout(600);
