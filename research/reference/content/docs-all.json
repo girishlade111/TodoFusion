@@ -1,0 +1,1098 @@
+{
+  "/docs/account": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nGetting started\nAccount\n\nGetting started with TodoFusion is a breeze. This section guides you through the process of creating your TodoFusion account, ensuring you're up and running in no time.\n\nAccount Settings\n\nTo access and modify your account settings, follow these steps:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Click on your profile picture or username in the top right corner of the dashboard to access the account menu.\n\nStep 3: Select \"Account Settings\" from the dropdown menu.\n\nHere, you can update your personal information, security settings, notification preferences, and more.\n\n\n\n\nChanging Your Password\n\nIf you wish to change your TodoFusion password, you can do so by following these steps:\n\nStep 1: In the \"Account Settings\" page, navigate to the \"Security\" section.\n\nStep 2: Find the \"Change Password\" option and click it.\n\nStep 3: Enter your current password and your new password in the provided fields.\n\n// Example code for changing your TodoFusion password\nPATCH /api/account/change-password\n{\n  \"current_password\": \"your_current_password\",\n  \"new_password\": \"your_new_password\"\n}\n\nStep 4: Click the \"Save Changes\" button to update your password.\n\n\n\n\nManaging Notifications\n\nTodoFusion allows you to customize your notification preferences. To do so, follow these steps:\n\nStep 1: In the \"Account Settings\" page, navigate to the \"Notifications\" section.\n\nStep 2: Adjust your notification settings according to your preferences.\n\n\n\n\nDeleting Your Account\n\nShould you decide to delete your TodoFusion account, follow these steps:\n\nStep 1: In the \"Account Settings\" page, scroll down to the \"Account Deletion\" section.\n\nStep 2: Click the \"Delete Account\" button.\n\nStep 3: Follow the on-screen instructions to confirm and complete the account deletion process.\n\nBy following these steps, you can effectively manage and customize your TodoFusion account to suit your needs and preferences.\n\n\n\n\nDashboard\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Account"
+      },
+      {
+        "tag": "P",
+        "text": "Getting started with TodoFusion is a breeze. This section guides you through the process of creating your TodoFusion account, ensuring you're up and running in no time."
+      },
+      {
+        "tag": "H4",
+        "text": "Account Settings"
+      },
+      {
+        "tag": "P",
+        "text": "To access and modify your account settings, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Click on your profile picture or username in the top right corner of the dashboard to access the account menu."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Select \"Account Settings\" from the dropdown menu."
+      },
+      {
+        "tag": "P",
+        "text": "Here, you can update your personal information, security settings, notification preferences, and more."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Changing Your Password"
+      },
+      {
+        "tag": "P",
+        "text": "If you wish to change your TodoFusion password, you can do so by following these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: In the \"Account Settings\" page, navigate to the \"Security\" section."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Find the \"Change Password\" option and click it."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Enter your current password and your new password in the provided fields."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Click the \"Save Changes\" button to update your password."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Managing Notifications"
+      },
+      {
+        "tag": "P",
+        "text": "TodoFusion allows you to customize your notification preferences. To do so, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: In the \"Account Settings\" page, navigate to the \"Notifications\" section."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Adjust your notification settings according to your preferences."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Deleting Your Account"
+      },
+      {
+        "tag": "P",
+        "text": "Should you decide to delete your TodoFusion account, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: In the \"Account Settings\" page, scroll down to the \"Account Deletion\" section."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Click the \"Delete Account\" button."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Follow the on-screen instructions to confirm and complete the account deletion process."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps, you can effectively manage and customize your TodoFusion account to suit your needs and preferences."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/dashboard": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nGetting started\nDashboard\n\nThe TodoFusion dashboard is your central hub for managing tasks, teams, and projects. In this section, we'll provide an overview of the TodoFusion dashboard and explain how to perform key actions.\n\nDashboard Overview\n\nWhen you log in to TodoFusion Management, you'll land on your dashboard, which is divided into several sections:\n\nTask List: This section displays your tasks, including their names, due dates, and priority levels.\n\nTeams: Here, you can see your team members and access team-specific features.\n\nAnalytics: View reports and analytics to track your productivity and task completion.\n\n\n\n\nLoading Tasks\n\nTo load and view your tasks on the dashboard, you can use the following code example if you're integrating TodoFusion Management into your application:\n\n// Example code to load tasks from the TodoFusion Management API\nGET /api/dashboard/tasks\n\nMake a GET request to the /api/dashboard/tasks endpoint, and the API will return a list of tasks associated with your account. You can then use this data to display tasks on the dashboard in your application.\n\n\n\n\nNavigating the Dashboard\n\nTo navigate the dashboard effectively, use the following tips:\n\nClick on a task to view its details and make updates.\n\nUse the search bar to find specific tasks or projects quickly.\n\nFilter tasks based on priority, due date, or team.\n\nBy using these features and code examples, you can make the most of your TodoFusion dashboard and stay organized and productive.\n\nAccount\nPrevious\nManaging Tasks\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Dashboard"
+      },
+      {
+        "tag": "P",
+        "text": "The TodoFusion dashboard is your central hub for managing tasks, teams, and projects. In this section, we'll provide an overview of the TodoFusion dashboard and explain how to perform key actions."
+      },
+      {
+        "tag": "H4",
+        "text": "Dashboard Overview"
+      },
+      {
+        "tag": "P",
+        "text": "When you log in to TodoFusion Management, you'll land on your dashboard, which is divided into several sections:"
+      },
+      {
+        "tag": "LI",
+        "text": "Task List: This section displays your tasks, including their names, due dates, and priority levels."
+      },
+      {
+        "tag": "P",
+        "text": "Task List: This section displays your tasks, including their names, due dates, and priority levels."
+      },
+      {
+        "tag": "LI",
+        "text": "Teams: Here, you can see your team members and access team-specific features."
+      },
+      {
+        "tag": "P",
+        "text": "Teams: Here, you can see your team members and access team-specific features."
+      },
+      {
+        "tag": "LI",
+        "text": "Analytics: View reports and analytics to track your productivity and task completion."
+      },
+      {
+        "tag": "P",
+        "text": "Analytics: View reports and analytics to track your productivity and task completion."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Loading Tasks"
+      },
+      {
+        "tag": "P",
+        "text": "To load and view your tasks on the dashboard, you can use the following code example if you're integrating TodoFusion Management into your application:"
+      },
+      {
+        "tag": "P",
+        "text": "Make a GET request to the /api/dashboard/tasks endpoint, and the API will return a list of tasks associated with your account. You can then use this data to display tasks on the dashboard in your application."
+      },
+      {
+        "tag": "CODE",
+        "text": "/api/dashboard/tasks"
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Navigating the Dashboard"
+      },
+      {
+        "tag": "P",
+        "text": "To navigate the dashboard effectively, use the following tips:"
+      },
+      {
+        "tag": "LI",
+        "text": "Click on a task to view its details and make updates."
+      },
+      {
+        "tag": "P",
+        "text": "Click on a task to view its details and make updates."
+      },
+      {
+        "tag": "LI",
+        "text": "Use the search bar to find specific tasks or projects quickly."
+      },
+      {
+        "tag": "P",
+        "text": "Use the search bar to find specific tasks or projects quickly."
+      },
+      {
+        "tag": "LI",
+        "text": "Filter tasks based on priority, due date, or team."
+      },
+      {
+        "tag": "P",
+        "text": "Filter tasks based on priority, due date, or team."
+      },
+      {
+        "tag": "P",
+        "text": "By using these features and code examples, you can make the most of your TodoFusion dashboard and stay organized and productive."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/managing-tasks": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nGetting started\nManaging Tasks\n\nIn TodoFusion Management, you can efficiently create, update, and track your tasks. This section will guide you through the process of managing tasks effectively.\n\nCreating a Task\n\nTo create a new task, follow these steps:\n\nStep 1: Log in to your TodoFusion Management account and navigate to your dashboard.\n\nStep 2: Click the \"+ New Task\" button or a similar option to initiate task creation.\n\nStep 3: Fill in the task details, including the task name, description, due date, and priority level.\n\n// Example code for creating a new task using TodoFusion Management API\nPOST /api/tasks\n{\n  \"name\": \"Complete Project Proposal\",\n  \"description\": \"Draft and finalize the project proposal for Q3.\",\n  \"due_date\": \"2023-10-15\",\n  \"priority\": \"High\"\n}\n\nStep 4: Assign the task to team members if needed.\n\nStep 5: Save or submit the task.\n\n\n\n\nUpdating a Task\n\nTo update an existing task, use the following steps:\n\nStep 1: Navigate to the task you wish to update on your dashboard.\n\nStep 2: Click on the task to open its details.\n\nStep 3: Make the necessary changes to the task details.\n\n// Example code for updating a task using TodoFusion Management API\nPATCH /api/tasks/{task_id}\n{\n  \"description\": \"Finalize and send the project proposal for approval.\"\n}\n\n\n\n\nMarking a Task as Complete\n\nWhen you've completed a task, follow these steps to mark it as complete:\n\nStep 1: Open the task you've finished from your dashboard.\n\nStep 2: Locate the \"Mark as Complete\" button or similar option.\n\nStep 3: Click the button to mark the task as complete.\n\n// Example code for marking a task as complete using Taskify Management API\nPOST /api/tasks/{task_id}/complete\n\nBy following these steps, you can efficiently manage your tasks and keep track of your progress in TodoFusion Management.\n\n\n\n\nDashboard\nPrevious\nTodo Integrations\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Managing Tasks"
+      },
+      {
+        "tag": "P",
+        "text": "In TodoFusion Management, you can efficiently create, update, and track your tasks. This section will guide you through the process of managing tasks effectively."
+      },
+      {
+        "tag": "H4",
+        "text": "Creating a Task"
+      },
+      {
+        "tag": "P",
+        "text": "To create a new task, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account and navigate to your dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Click the \"+ New Task\" button or a similar option to initiate task creation."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Fill in the task details, including the task name, description, due date, and priority level."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Assign the task to team members if needed."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Save or submit the task."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Updating a Task"
+      },
+      {
+        "tag": "P",
+        "text": "To update an existing task, use the following steps:"
+      },
+      {
+        "tag": "LI",
+        "text": "Step 1: Navigate to the task you wish to update on your dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Navigate to the task you wish to update on your dashboard."
+      },
+      {
+        "tag": "LI",
+        "text": "Step 2: Click on the task to open its details."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Click on the task to open its details."
+      },
+      {
+        "tag": "LI",
+        "text": "Step 3: Make the necessary changes to the task details."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Make the necessary changes to the task details."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Marking a Task as Complete"
+      },
+      {
+        "tag": "P",
+        "text": "When you've completed a task, follow these steps to mark it as complete:"
+      },
+      {
+        "tag": "LI",
+        "text": "Step 1: Open the task you've finished from your dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Open the task you've finished from your dashboard."
+      },
+      {
+        "tag": "LI",
+        "text": "Step 2: Locate the \"Mark as Complete\" button or similar option."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Locate the \"Mark as Complete\" button or similar option."
+      },
+      {
+        "tag": "LI",
+        "text": "Step 3: Click the button to mark the task as complete."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Click the button to mark the task as complete."
+      },
+      {
+        "tag": "PRE",
+        "text": "// Example code for marking a task as complete using Taskify Management API\nPOST /api/tasks/{task_id}/complete"
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps, you can efficiently manage your tasks and keep track of your progress in TodoFusion Management."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/integrations": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nIntegrations\nTodo Integrations\n\nTodoFusion Management provides the flexibility to integrate with various external tools and services, allowing you to streamline your workflow and enhance your task management experience. In this section, we'll explore how to set up and manage integrations with Taskify.\n\nAvailable Integrations\n\nTodoFusion offers integrations with a wide range of tools and services, including but not limited to:\n\nSlack: Streamline communication by connecting TodoFusion with your Slack workspace.\n\nGoogle Calendar: Sync your tasks and due dates with Google Calendar for better time management.\n\nTrello: Bridge the gap between TodoFusion and Trello to manage tasks seamlessly.\n\n\n\n\nSetting Up an Integration\n\nTo set up an integration with an external service, you'll typically need to generate API tokens or access keys. Below is an example of how to set up a Slack integration with TodoFusion:\n\nStep 1: Log in to your TodoFusion account.\n\nStep 2: Navigate to the \"Integrations\" or \"Settings\" section, and choose \"Slack Integration.\"\n\nStep 3: Click on the \"Connect to Slack\" button to start the integration process.\n\nStep 4: Follow the on-screen instructions to log in to your Slack workspace and authorize TodoFusion's access.\n\nStep 5: Once authorized, you will receive an API token that you can use to connect TodoFusion and Slack.\n\n// Example code for using an API token to set up a Slack integration with TodoFusion\nPOST /api/integrations/slack\n{\n  \"api_token\": \"your_slack_api_token\"\n}\n\nBy following these steps, you can easily set up and manage integrations with external services to enhance your task management capabilities in TodoFusion.\n\nManaging Tasks\nPrevious\nSet Up Integrations\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Todo Integrations"
+      },
+      {
+        "tag": "P",
+        "text": "TodoFusion Management provides the flexibility to integrate with various external tools and services, allowing you to streamline your workflow and enhance your task management experience. In this section, we'll explore how to set up and manage integrations with Taskify."
+      },
+      {
+        "tag": "H4",
+        "text": "Available Integrations"
+      },
+      {
+        "tag": "P",
+        "text": "TodoFusion offers integrations with a wide range of tools and services, including but not limited to:"
+      },
+      {
+        "tag": "LI",
+        "text": "Slack: Streamline communication by connecting TodoFusion with your Slack workspace."
+      },
+      {
+        "tag": "P",
+        "text": "Slack: Streamline communication by connecting TodoFusion with your Slack workspace."
+      },
+      {
+        "tag": "LI",
+        "text": "Google Calendar: Sync your tasks and due dates with Google Calendar for better time management."
+      },
+      {
+        "tag": "P",
+        "text": "Google Calendar: Sync your tasks and due dates with Google Calendar for better time management."
+      },
+      {
+        "tag": "LI",
+        "text": "Trello: Bridge the gap between TodoFusion and Trello to manage tasks seamlessly."
+      },
+      {
+        "tag": "P",
+        "text": "Trello: Bridge the gap between TodoFusion and Trello to manage tasks seamlessly."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Setting Up an Integration"
+      },
+      {
+        "tag": "P",
+        "text": "To set up an integration with an external service, you'll typically need to generate API tokens or access keys. Below is an example of how to set up a Slack integration with TodoFusion:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Integrations\" or \"Settings\" section, and choose \"Slack Integration.\""
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Click on the \"Connect to Slack\" button to start the integration process."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Follow the on-screen instructions to log in to your Slack workspace and authorize TodoFusion's access."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Once authorized, you will receive an API token that you can use to connect TodoFusion and Slack."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps, you can easily set up and manage integrations with external services to enhance your task management capabilities in TodoFusion."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/set-up-integrations": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nIntegrations\nSet Up Integrations\n\nTodoFusion offers seamless integration with various external tools and services to enhance your workflow and task management experience. In this section, we'll guide you through the process of setting up integrations with TodoFusion.\n\nSupported Integrations\n\nTodoFusion supports integrations with a variety of popular tools and services, allowing you to connect your tasks and projects with your favorite apps. Some of our supported integrations include:\n\nSlack: Integrate with Slack to receive task notifications and updates in your Slack channels.\n\nGoogle Calendar: Sync your TodoFusion tasks and deadlines with Google Calendar for better time management.\n\nTrello: Connect TodoFusion with Trello to manage tasks seamlessly across both platforms.\n\n\n\n\nSetting Up an Integration\n\nHere's a step-by-step guide on how to set up an integration with TodoFusion. We'll use the example of setting up a Slack integration:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Navigate to the \"Integrations\" or \"Settings\" section in your TodoFusion dashboard.\n\nStep 3: Select the integration you want to set up (e.g., Slack).\n\nStep 4: Follow the on-screen instructions to initiate the integration.\n\nStep 5: You'll typically be prompted to provide an API token or other necessary authentication information for the integration.\n\nStep 6: Once you've entered the required information, click \"Save\" to activate the integration.\n\nStep 7: Your TodoFusion account is now connected with the selected integration.\n\n// Example code for setting up a Slack integration with TodoFusion\nPOST /api/integrations/slack\n{\n  \"api_token\": \"your_slack_api_token\"\n}\n\nBy following these steps, you can easily set up and configure integrations with external services to enhance your TodoFusion experience.\n\nTodo Integrations\nPrevious\nThird-party Platforms\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Set Up Integrations"
+      },
+      {
+        "tag": "P",
+        "text": "TodoFusion offers seamless integration with various external tools and services to enhance your workflow and task management experience. In this section, we'll guide you through the process of setting up integrations with TodoFusion."
+      },
+      {
+        "tag": "H4",
+        "text": "Supported Integrations"
+      },
+      {
+        "tag": "P",
+        "text": "TodoFusion supports integrations with a variety of popular tools and services, allowing you to connect your tasks and projects with your favorite apps. Some of our supported integrations include:"
+      },
+      {
+        "tag": "LI",
+        "text": "Slack: Integrate with Slack to receive task notifications and updates in your Slack channels."
+      },
+      {
+        "tag": "P",
+        "text": "Slack: Integrate with Slack to receive task notifications and updates in your Slack channels."
+      },
+      {
+        "tag": "LI",
+        "text": "Google Calendar: Sync your TodoFusion tasks and deadlines with Google Calendar for better time management."
+      },
+      {
+        "tag": "P",
+        "text": "Google Calendar: Sync your TodoFusion tasks and deadlines with Google Calendar for better time management."
+      },
+      {
+        "tag": "LI",
+        "text": "Trello: Connect TodoFusion with Trello to manage tasks seamlessly across both platforms."
+      },
+      {
+        "tag": "P",
+        "text": "Trello: Connect TodoFusion with Trello to manage tasks seamlessly across both platforms."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Setting Up an Integration"
+      },
+      {
+        "tag": "P",
+        "text": "Here's a step-by-step guide on how to set up an integration with TodoFusion. We'll use the example of setting up a Slack integration:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Integrations\" or \"Settings\" section in your TodoFusion dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Select the integration you want to set up (e.g., Slack)."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Follow the on-screen instructions to initiate the integration."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: You'll typically be prompted to provide an API token or other necessary authentication information for the integration."
+      },
+      {
+        "tag": "P",
+        "text": "Step 6: Once you've entered the required information, click \"Save\" to activate the integration."
+      },
+      {
+        "tag": "P",
+        "text": "Step 7: Your TodoFusion account is now connected with the selected integration."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps, you can easily set up and configure integrations with external services to enhance your TodoFusion experience."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/third-party-platforms": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nIntegrations\nThird-party Platforms\n\nCustomizing TodoFusion allows you to tailor the platform to your preferences and needs. In this section, we'll explore how you can personalize the appearance and settings in TodoFusion.\n\nSupported Third-Party Platforms\n\nTodoFusion supports integration with a variety of third-party platforms, enabling you to streamline your workflows and collaborate more efficiently. Some of our supported third-party platforms include:\n\nGoogle Drive: Integrate TodoFusion with Google Drive to easily attach documents and files to your tasks.\n\nGitHub: Connect Taskify with GitHub to link tasks to your repositories and track software development projects.\n\nZapier: Use Zapier to create custom automation workflows connecting Taskify with thousands of other apps and services.\n\n\n\n\nIntegrating with a Third-Party Platform\n\nTo integrate TodoFusion with a third-party platform, you'll need to follow a few simple steps:\n\nStep 1: Log in to your Taskify Management account.\n\nStep 2: Navigate to the \"Integrations\" or \"Settings\" section in your Taskify dashboard.\n\nStep 3: Locate the third-party platform you wish to integrate (e.g., Google Drive).\n\nStep 4: Click on the platform's name to initiate the integration setup process.\n\nStep 5: Depending on the platform, you may need to provide authentication information, such as API keys or access tokens.\n\nStep 6: Once you've entered the necessary information, click \"Save\" or \"Connect\" to establish the integration.\n\n// Example code for integrating TodoFusion with Google Drive\nPOST /api/integrations/google-drive\n{\n  \"api_key\": \"your_google_drive_api_key\"\n}\n\nBy following these steps and utilizing the provided code block, you can seamlessly integrate TodoFusion with third-party platforms, enhancing your task management capabilities.\n\nSet Up Integrations\nPrevious\nInviting Team Members\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Third-party Platforms"
+      },
+      {
+        "tag": "P",
+        "text": "Customizing TodoFusion allows you to tailor the platform to your preferences and needs. In this section, we'll explore how you can personalize the appearance and settings in TodoFusion."
+      },
+      {
+        "tag": "H4",
+        "text": "Supported Third-Party Platforms"
+      },
+      {
+        "tag": "P",
+        "text": "TodoFusion supports integration with a variety of third-party platforms, enabling you to streamline your workflows and collaborate more efficiently. Some of our supported third-party platforms include:"
+      },
+      {
+        "tag": "LI",
+        "text": "Google Drive: Integrate TodoFusion with Google Drive to easily attach documents and files to your tasks."
+      },
+      {
+        "tag": "P",
+        "text": "Google Drive: Integrate TodoFusion with Google Drive to easily attach documents and files to your tasks."
+      },
+      {
+        "tag": "LI",
+        "text": "GitHub: Connect Taskify with GitHub to link tasks to your repositories and track software development projects."
+      },
+      {
+        "tag": "P",
+        "text": "GitHub: Connect Taskify with GitHub to link tasks to your repositories and track software development projects."
+      },
+      {
+        "tag": "LI",
+        "text": "Zapier: Use Zapier to create custom automation workflows connecting Taskify with thousands of other apps and services."
+      },
+      {
+        "tag": "P",
+        "text": "Zapier: Use Zapier to create custom automation workflows connecting Taskify with thousands of other apps and services."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Integrating with a Third-Party Platform"
+      },
+      {
+        "tag": "P",
+        "text": "To integrate TodoFusion with a third-party platform, you'll need to follow a few simple steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your Taskify Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Integrations\" or \"Settings\" section in your Taskify dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Locate the third-party platform you wish to integrate (e.g., Google Drive)."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Click on the platform's name to initiate the integration setup process."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Depending on the platform, you may need to provide authentication information, such as API keys or access tokens."
+      },
+      {
+        "tag": "P",
+        "text": "Step 6: Once you've entered the necessary information, click \"Save\" or \"Connect\" to establish the integration."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps and utilizing the provided code block, you can seamlessly integrate TodoFusion with third-party platforms, enhancing your task management capabilities."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/inviting-team-members": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nCollaboration\nInviting Team Members\n\nCollaboration is at the heart of TodoFusion, and inviting team members to join your workspace is an essential part of the process. In this section, we'll guide you through the steps to invite and onboard team members to your TodoFusion organization.\n\nInviting Team Members\n\nTo invite team members to your TodoFusion organization, follow these steps:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Navigate to the \"Team\" or \"Members\" section in your TodoFusion dashboard.\n\nStep 3: Look for the \"Invite Team Members\" or similar button and click on it.\n\nStep 4: Enter the email addresses of the team members you wish to invite. You can invite multiple members at once.\n\nStep 5: Optionally, you can specify the roles or permissions for the invited team members.\n\nStep 6: Click the \"Send Invitations\" button to send the invitations.\n\n\n\n\nTeam Member Onboarding\n\nWhen team members receive the invitation, they will typically receive an email with a link to join your TodoFusion organization. Here's what they need to do:\n\nStep 1: Check their email for the invitation from TodoFusion.\n\nStep 2: Click on the invitation link to join the organization.\n\nStep 3: Complete the onboarding process, which may include setting up their profiles and customizing their preferences.\n\n\n\n\nUsing the Code Block\n\nTo programmatically invite team members using the TodoFusion API, you can use the following code example:\n\n// Example code for inviting team members using the TodoFusion API\nPOST /api/invitations\n{\n  \"email\": \"new_member@example.com\",\n  \"role\": \"user\"\n}\n\nThis code sends an invitation to the specified email address and assigns the \"user\" role to the new team member.\n\n\n\n\nBy following these steps or using the provided code block, you can efficiently invite and onboard team members to your TodoFusion organization, promoting collaboration and productivity.\n\nThird-party Platforms\nPrevious\nTasks and Deadlines\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Inviting Team Members"
+      },
+      {
+        "tag": "P",
+        "text": "Collaboration is at the heart of TodoFusion, and inviting team members to join your workspace is an essential part of the process. In this section, we'll guide you through the steps to invite and onboard team members to your TodoFusion organization."
+      },
+      {
+        "tag": "H4",
+        "text": "Inviting Team Members"
+      },
+      {
+        "tag": "P",
+        "text": "To invite team members to your TodoFusion organization, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Team\" or \"Members\" section in your TodoFusion dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Look for the \"Invite Team Members\" or similar button and click on it."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Enter the email addresses of the team members you wish to invite. You can invite multiple members at once."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Optionally, you can specify the roles or permissions for the invited team members."
+      },
+      {
+        "tag": "P",
+        "text": "Step 6: Click the \"Send Invitations\" button to send the invitations."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Team Member Onboarding"
+      },
+      {
+        "tag": "P",
+        "text": "When team members receive the invitation, they will typically receive an email with a link to join your TodoFusion organization. Here's what they need to do:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Check their email for the invitation from TodoFusion."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Click on the invitation link to join the organization."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Complete the onboarding process, which may include setting up their profiles and customizing their preferences."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Using the Code Block"
+      },
+      {
+        "tag": "P",
+        "text": "To programmatically invite team members using the TodoFusion API, you can use the following code example:"
+      },
+      {
+        "tag": "P",
+        "text": "This code sends an invitation to the specified email address and assigns the \"user\" role to the new team member."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps or using the provided code block, you can efficiently invite and onboard team members to your TodoFusion organization, promoting collaboration and productivity."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/tasks-and-deadlines": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nCollaboration\nTasks and Deadlines\n\nManaging tasks and deadlines is a fundamental aspect of effective task management. In this section, we'll explore how you can create tasks with specific deadlines and keep track of your work in TodoFusion.\n\nCreating a Task with a Deadline\n\nTo create a task with a specific deadline in TodoFusion, follow these steps:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Navigate to the \"Tasks\" or \"To-Do\" section in your TodoFusion dashboard.\n\nStep 3: Click the \"+ New Task\" or a similar button to create a new task.\n\nStep 4: Fill in the task details, including the task name, description, and priority.\n\nStep 5: Set the task's due date, specifying when it needs to be completed.\n\n// Example code for creating a task with a specific deadline using TodoFusion API\nPOST /api/tasks\n{\n  \"name\": \"Complete Project Report\",\n  \"description\": \"Draft the project report for the quarterly review.\",\n  \"due_date\": \"2023-10-31\",\n  \"priority\": \"High\"\n}\n\n\n\n\nManaging Deadlines\n\nAfter creating a task, you can easily manage and track its deadline by:\n\nRegularly reviewing your TodoFusion dashboard to see upcoming tasks with their due dates.\n\nAdjusting due dates if needed, by editing the task details or using drag-and-drop features.\n\nCompleting tasks on or before their deadlines to stay on top of your work.\n\nBy following these steps and utilizing the provided code block, you can effectively create tasks with specific deadlines and manage them within your TodoFusion platform.\n\nInviting Team Members\nPrevious\nDiscussions\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Tasks and Deadlines"
+      },
+      {
+        "tag": "P",
+        "text": "Managing tasks and deadlines is a fundamental aspect of effective task management. In this section, we'll explore how you can create tasks with specific deadlines and keep track of your work in TodoFusion."
+      },
+      {
+        "tag": "H4",
+        "text": "Creating a Task with a Deadline"
+      },
+      {
+        "tag": "P",
+        "text": "To create a task with a specific deadline in TodoFusion, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Tasks\" or \"To-Do\" section in your TodoFusion dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Click the \"+ New Task\" or a similar button to create a new task."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Fill in the task details, including the task name, description, and priority."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Set the task's due date, specifying when it needs to be completed."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Managing Deadlines"
+      },
+      {
+        "tag": "P",
+        "text": "After creating a task, you can easily manage and track its deadline by:"
+      },
+      {
+        "tag": "LI",
+        "text": "Regularly reviewing your TodoFusion dashboard to see upcoming tasks with their due dates."
+      },
+      {
+        "tag": "P",
+        "text": "Regularly reviewing your TodoFusion dashboard to see upcoming tasks with their due dates."
+      },
+      {
+        "tag": "LI",
+        "text": "Adjusting due dates if needed, by editing the task details or using drag-and-drop features."
+      },
+      {
+        "tag": "P",
+        "text": "Adjusting due dates if needed, by editing the task details or using drag-and-drop features."
+      },
+      {
+        "tag": "LI",
+        "text": "Completing tasks on or before their deadlines to stay on top of your work."
+      },
+      {
+        "tag": "P",
+        "text": "Completing tasks on or before their deadlines to stay on top of your work."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps and utilizing the provided code block, you can effectively create tasks with specific deadlines and manage them within your TodoFusion platform."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/discussions": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nCollaboration\nDiscussions\n\nDiscussions are an essential part of teamwork and collaboration within TodoFusion. In this section, we'll explore how to create and participate in discussions to facilitate communication and information sharing.\n\nCreating a New Discussion\n\nTo start a new discussion or topic in TodoFusion, follow these steps:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Navigate to the \"Discussions\" or \"Forum\" section in your TodoFusion dashboard.\n\nStep 3: Click the \"+ New Discussion\" or a similar button to initiate a new discussion.\n\nStep 4: Enter a title for your discussion to give it a clear and concise name.\n\nStep 5: Add a description or content to provide context for your discussion.\n\nStep 6: Optionally, select relevant tags or categories to categorize your discussion.\n\nStep 7: Click the \"Create\" or \"Start Discussion\" button to create the new discussion.\n\n\n\n\nUsing the Code Block\n\nTo programmatically create a new discussion or topic using the TodoFusion API, you can use the following code example:\n\n// Example code for creating a new discussion using Taskify API\nPOST /api/discussions\n{\n  \"title\": \"Project Kickoff Meeting\",\n  \"content\": \"Let's discuss the agenda and schedule for the upcoming project kickoff meeting.\",\n  \"tags\": [\"meeting\", \"project\"]\n}\n\nThis code sends a request to the TodoFusion API to create a new discussion with the specified title, content, and tags.\n\nBy following these steps or using the provided code block, you can easily create and engage in discussions to foster collaboration and information sharing within your TodoFusion platform.\n\nTasks and Deadlines\nPrevious\nTask Automation\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Discussions"
+      },
+      {
+        "tag": "P",
+        "text": "Discussions are an essential part of teamwork and collaboration within TodoFusion. In this section, we'll explore how to create and participate in discussions to facilitate communication and information sharing."
+      },
+      {
+        "tag": "H4",
+        "text": "Creating a New Discussion"
+      },
+      {
+        "tag": "P",
+        "text": "To start a new discussion or topic in TodoFusion, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Discussions\" or \"Forum\" section in your TodoFusion dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Click the \"+ New Discussion\" or a similar button to initiate a new discussion."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Enter a title for your discussion to give it a clear and concise name."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Add a description or content to provide context for your discussion."
+      },
+      {
+        "tag": "P",
+        "text": "Step 6: Optionally, select relevant tags or categories to categorize your discussion."
+      },
+      {
+        "tag": "P",
+        "text": "Step 7: Click the \"Create\" or \"Start Discussion\" button to create the new discussion."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Using the Code Block"
+      },
+      {
+        "tag": "P",
+        "text": "To programmatically create a new discussion or topic using the TodoFusion API, you can use the following code example:"
+      },
+      {
+        "tag": "P",
+        "text": "This code sends a request to the TodoFusion API to create a new discussion with the specified title, content, and tags."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps or using the provided code block, you can easily create and engage in discussions to foster collaboration and information sharing within your TodoFusion platform."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/task-automation": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nAdvanced features\nTask Automation\n\nTask automation can help you save time and increase productivity by streamlining routine tasks. In this section, we'll explore how to set up task automation in TodoFusion.\n\nAutomating a Task\n\nTo automate a specific task in TodoFusion, you can create task automation rules. These rules enable you to define conditions under which a task should be automatically triggered. Follow these steps:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Navigate to the \"Automation\" or \"Rules\" section in your TodoFusion dashboard.\n\nStep 3: Click the \"Create New Rule\" or similar button to set up a new task automation rule.\n\nStep 4: Define the trigger conditions for the rule. For example, you can specify that a task should be created or updated when certain criteria are met.\n\nStep 5: Configure the actions that should be taken when the trigger conditions are met. This might include creating a new task, updating an existing task, or sending notifications.\n\nStep 6: Save the automation rule.\n\n\n\n\nUsing the Code Block\n\nTo programmatically set up task automation using the TodoFusion API, you can use the following code example:\n\n// Example code for creating a task automation rule using TodoFusion API\nPOST /api/automation/rules\n{\n  \"name\": \"Meeting Reminder\",\n  \"trigger_condition\": \"meeting_date == today\",\n  \"action\": \"create_task\",\n  \"task_details\": {\n    \"name\": \"Meeting Reminder Task\",\n    \"description\": \"Send a meeting reminder for today's meeting\",\n    \"due_date\": \"today\"\n  }\n}\n\nThis code sends a request to the TodoFusion API to create a task automation rule that triggers the creation of a meeting reminder task when the meeting date matches the current day.\n\nBy following these steps or using the provided code block, you can automate specific tasks to simplify your task management process in TodoFusion.\n\nDiscussions\nPrevious\nReporting\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Task Automation"
+      },
+      {
+        "tag": "P",
+        "text": "Task automation can help you save time and increase productivity by streamlining routine tasks. In this section, we'll explore how to set up task automation in TodoFusion."
+      },
+      {
+        "tag": "H4",
+        "text": "Automating a Task"
+      },
+      {
+        "tag": "P",
+        "text": "To automate a specific task in TodoFusion, you can create task automation rules. These rules enable you to define conditions under which a task should be automatically triggered. Follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Automation\" or \"Rules\" section in your TodoFusion dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Click the \"Create New Rule\" or similar button to set up a new task automation rule."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Define the trigger conditions for the rule. For example, you can specify that a task should be created or updated when certain criteria are met."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Configure the actions that should be taken when the trigger conditions are met. This might include creating a new task, updating an existing task, or sending notifications."
+      },
+      {
+        "tag": "P",
+        "text": "Step 6: Save the automation rule."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Using the Code Block"
+      },
+      {
+        "tag": "P",
+        "text": "To programmatically set up task automation using the TodoFusion API, you can use the following code example:"
+      },
+      {
+        "tag": "P",
+        "text": "This code sends a request to the TodoFusion API to create a task automation rule that triggers the creation of a meeting reminder task when the meeting date matches the current day."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps or using the provided code block, you can automate specific tasks to simplify your task management process in TodoFusion."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/reporting-and-analytics": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nAdvanced features\nReporting\n\nReports and analytics help you gain insights into your task management and track progress. In this section, we'll explore how to generate reports on task completion in TodoFusion.\n\nGenerating a Task Completion Report\n\nTo generate a report on task completion in TodoFusion, follow these steps:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Navigate to the \"Reports\" or \"Analytics\" section in your TodoFusion dashboard.\n\nStep 3: Select the type of report you want to generate, such as \"Task Completion Report.\"\n\nStep 4: Choose the date range or criteria for the report. For example, you can select a specific time frame or filter tasks by status.\n\nStep 5: Click the \"Generate Report\" or similar button to create the report.\n\nStep 6: View and download the generated report, which may include statistics on completed tasks, task duration, and more.\n\n\n\n\nUsing the Code Block\n\nTo programmatically generate a task completion report using the TodoFusion API, you can use the following code example:\n\n// Example code for generating a task completion report using TodoFusion API\nGET /api/reports/task-completion\n{\n  \"start_date\": \"2023-01-01\",\n  \"end_date\": \"2023-12-31\",\n  \"status\": \"completed\"\n}\n\nThis code sends a request to the TodoFusion API to generate a report on task completion for the specified date range and status.\n\nBy following these steps or using the provided code block, you can generate task completion reports to assess your task management performance in TodoFusion.\n\nTask Automation\nPrevious\nCustomizing Todo\nNext\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Reporting"
+      },
+      {
+        "tag": "P",
+        "text": "Reports and analytics help you gain insights into your task management and track progress. In this section, we'll explore how to generate reports on task completion in TodoFusion."
+      },
+      {
+        "tag": "H4",
+        "text": "Generating a Task Completion Report"
+      },
+      {
+        "tag": "P",
+        "text": "To generate a report on task completion in TodoFusion, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Reports\" or \"Analytics\" section in your TodoFusion dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Select the type of report you want to generate, such as \"Task Completion Report.\""
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Choose the date range or criteria for the report. For example, you can select a specific time frame or filter tasks by status."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Click the \"Generate Report\" or similar button to create the report."
+      },
+      {
+        "tag": "P",
+        "text": "Step 6: View and download the generated report, which may include statistics on completed tasks, task duration, and more."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Using the Code Block"
+      },
+      {
+        "tag": "P",
+        "text": "To programmatically generate a task completion report using the TodoFusion API, you can use the following code example:"
+      },
+      {
+        "tag": "P",
+        "text": "This code sends a request to the TodoFusion API to generate a report on task completion for the specified date range and status."
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps or using the provided code block, you can generate task completion reports to assess your task management performance in TodoFusion."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  },
+  "/docs/customizing-todofusion": {
+    "title": "",
+    "bodyText": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nAdvanced features\nCustomizing Todo\n\nCustomizing TodoFusion allows you to tailor the platform to your preferences and needs. In this section, we'll explore how you can personalize the appearance and settings in TodoFusion.\n\nChanging the Theme\n\nTo change the appearance of TodoFusion, follow these steps:\n\nStep 1: Log in to your TodoFusion Management account.\n\nStep 2: Navigate to the \"Settings\" or \"Appearance\" section in your TodoFusion dashboard.\n\nStep 3: Look for options related to changing the theme or color scheme.\n\nStep 4: Select your preferred theme or customize colors as desired.\n\nStep 5: Save your theme preferences.\n\n\n\n\nUsing the Code Block\n\nTo programmatically change the theme or appearance settings using the TodoFusion API, you can use the following code example:\n\n// Example code for changing the theme in TodoFusion using TodoFusion API\nPATCH /api/settings/theme\n{\n  \"theme\": \"dark\"\n}\n\nThis code sends a request to the TodoFusion API to update the theme to \"dark.\"\n\nBy following these steps or using the provided code block, you can customize the appearance and settings of your TodoFusion platform to match your personal preferences.\n\nReporting\nPrevious\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "blocks": [
+      {
+        "tag": "H2",
+        "text": "Customizing Todo"
+      },
+      {
+        "tag": "P",
+        "text": "Customizing TodoFusion allows you to tailor the platform to your preferences and needs. In this section, we'll explore how you can personalize the appearance and settings in TodoFusion."
+      },
+      {
+        "tag": "H4",
+        "text": "Changing the Theme"
+      },
+      {
+        "tag": "P",
+        "text": "To change the appearance of TodoFusion, follow these steps:"
+      },
+      {
+        "tag": "P",
+        "text": "Step 1: Log in to your TodoFusion Management account."
+      },
+      {
+        "tag": "P",
+        "text": "Step 2: Navigate to the \"Settings\" or \"Appearance\" section in your TodoFusion dashboard."
+      },
+      {
+        "tag": "P",
+        "text": "Step 3: Look for options related to changing the theme or color scheme."
+      },
+      {
+        "tag": "P",
+        "text": "Step 4: Select your preferred theme or customize colors as desired."
+      },
+      {
+        "tag": "P",
+        "text": "Step 5: Save your theme preferences."
+      },
+      {
+        "tag": "P",
+        "text": ""
+      },
+      {
+        "tag": "H4",
+        "text": "Using the Code Block"
+      },
+      {
+        "tag": "P",
+        "text": "To programmatically change the theme or appearance settings using the TodoFusion API, you can use the following code example:"
+      },
+      {
+        "tag": "P",
+        "text": "This code sends a request to the TodoFusion API to update the theme to \"dark.\""
+      },
+      {
+        "tag": "P",
+        "text": "By following these steps or using the provided code block, you can customize the appearance and settings of your TodoFusion platform to match your personal preferences."
+      },
+      {
+        "tag": "P",
+        "text": "© Copyright 2024. All rights reserved."
+      }
+    ]
+  }
+}
