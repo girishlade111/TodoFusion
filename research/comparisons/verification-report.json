@@ -1,0 +1,392 @@
+{
+  "routesChecked": 44,
+  "routesAll200": true,
+  "brokenImagesTotal": 4,
+  "desktopOverflowCount": 0,
+  "status404": 404,
+  "themes": {
+    "darkBg": "rgb(18, 18, 24)",
+    "lightBg": "rgb(247, 247, 248)",
+    "persistedBg": "rgb(247, 247, 248)"
+  },
+  "interactions": {
+    "checklistToggled": true,
+    "copiedVisible": true,
+    "faqVisible": true,
+    "tab2QuoteVisible": true,
+    "helpcenterCompanyCount": 6,
+    "helpcenterSearchCount": 3,
+    "docsSearchHit": true
+  },
+  "mobile320Overflow": {
+    "/": false,
+    "/features": true,
+    "/pricing": false,
+    "/integrations": false,
+    "/about": false,
+    "/blog": false,
+    "/docs": false,
+    "/uikit": true
+  },
+  "a11yResults": {
+    "/": {
+      "violations": 3,
+      "details": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 31
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": 2
+        }
+      ]
+    },
+    "/features": {
+      "violations": 4,
+      "details": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 23
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": 1
+        }
+      ]
+    },
+    "/pricing": {
+      "violations": 1,
+      "details": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "nodes": 1
+        }
+      ]
+    },
+    "/helpcenter": {
+      "violations": 0,
+      "details": []
+    },
+    "/docs": {
+      "violations": 1,
+      "details": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": 1
+        }
+      ]
+    },
+    "/contact/sales": {
+      "violations": 1,
+      "details": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": 1
+        }
+      ]
+    }
+  },
+  "visualDiff": {
+    "darkCompare": {
+      "width": 1440,
+      "height": 3000,
+      "diffPixels": 396818,
+      "diffPercent": 9.19
+    },
+    "lightCompare": {
+      "width": 1440,
+      "height": 3000,
+      "diffPixels": 581711,
+      "diffPercent": 13.47
+    }
+  },
+  "routeReport": [
+    {
+      "route": "/",
+      "status": 200,
+      "brokenImgs": 1,
+      "overflow": false
+    },
+    {
+      "route": "/features",
+      "status": 200,
+      "brokenImgs": 1,
+      "overflow": false
+    },
+    {
+      "route": "/integrations",
+      "status": 200,
+      "brokenImgs": 1,
+      "overflow": false
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/pricing",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/privacy-policy",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/contact/sales",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/helpcenter",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/uikit",
+      "status": 200,
+      "brokenImgs": 1,
+      "overflow": false
+    },
+    {
+      "route": "/blog/balancing-aesthetics-and-functionality-in-ui",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog/where-aesthetics-meet-functionality",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog/the-symbiosis-of-aesthetics-and-functionality-in-ui",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog/the-role-of-color-psychology-in-design",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog/web-design-essentials-a-comprehensive-guide",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog/crafting-an-effective-product-design-strategy",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog/navigating-the-trends-ui-ux-in-2023",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/blog/the-art-of-user-centric-design",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/codify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/nexus-ai",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/flexify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/agentify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/landify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/startify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/taskify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/platify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/protify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/flowboard",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/identify",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/integrations/stylokit",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/account",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/dashboard",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/managing-tasks",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/integrations",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/set-up-integrations",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/third-party-platforms",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/inviting-team-members",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/tasks-and-deadlines",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/discussions",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/task-automation",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/reporting-and-analytics",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    },
+    {
+      "route": "/docs/customizing-todofusion",
+      "status": 200,
+      "brokenImgs": 0,
+      "overflow": false
+    }
+  ]
+}

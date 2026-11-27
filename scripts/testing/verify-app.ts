@@ -155,9 +155,9 @@ async function main() {
 
   // Helpcenter search & filter
   await page.goto(`${BASE_URL}/helpcenter`, { waitUntil: 'domcontentloaded' });
-  await page.getByRole('button', { name: 'Company' }).click();
+  await page.getByRole('button', { name: 'Company', exact: true }).click();
   const companyCount = await page.locator('button[aria-expanded]').count();
-  await page.getByRole('button', { name: 'All' }).click();
+  await page.getByRole('button', { name: 'All', exact: true }).click();
   await page.locator('#helpcenter-search').fill('privacy');
   const searchCount = await page.locator('button[aria-expanded]').count();
 
