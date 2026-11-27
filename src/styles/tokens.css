@@ -1,0 +1,59 @@
+/* TodoFusion Design System Tokens */
+:root {
+  --font-primary: 'Instrument Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-inter: 'Inter', 'Instrument Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Brand & Semantic Accents (shared across themes) */
+  --accent-purple: #8624ff;
+  --accent-purple-hover: #7808ff;
+  --accent-purple-light: #9f75ff;
+  --accent-purple-soft: rgba(134, 36, 255, 0.15);
+  --accent-purple-glow: rgba(134, 36, 255, 0.25);
+  --accent-cyan: #22d2ed;
+  --accent-cyan-soft: rgba(34, 210, 237, 0.2);
+  --accent-pink: #e973bb;
+  --accent-pink-soft: rgba(233, 115, 187, 0.2);
+  --accent-lime: #95b500;
+  --accent-lime-soft: rgba(149, 181, 0, 0.2);
+  --accent-orange: #f49d0b;
+  --accent-orange-soft: rgba(244, 157, 11, 0.2);
+  --accent-coral: #f23f5d;
+  --accent-blue: #146ef5;
+
+  /* Typography Scale */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 15px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 36px;
+  --text-4xl: 48px;
+  --text-5xl: 56px;
+
+  /* Layout & Spacing */
+  --container-width: 1200px;
+  --container-narrow: 720px;
+  --container-legal: 700px;
+  --container-pricing: 820px;
+  --page-gutter: 24px;
+  --section-spacing: 140px;
+  --grid-gap: 20px;
+
+  /* Radii */
+  --radius-xs: 6px;
+  --radius-button: 8px;
+  --radius-input: 8px;
+  --radius-card: 16px;
+  --radius-large: 20px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.44, 0, 0.56, 1);
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 180ms;
+  --duration-base: 300ms;
+  --duration-slow: 600ms;
+}

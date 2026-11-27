@@ -1,0 +1,64 @@
+/* Light Theme - Verified against live toggled TodoFusion reference */
+html.light,
+[data-theme='light'] {
+  color-scheme: light;
+
+  --page-background: #f7f7f8;
+  --page-pattern-color: #edeef1;
+
+  --surface-primary: #ffffff;
+  --surface-secondary: #f1f2f4;
+  --surface-raised: #ffffff;
+  --surface-inset: #f1f2f4;
+  --surface-overlay: rgba(255, 255, 255, 0.88);
+  --surface-inverse: #121218;
+
+  --text-primary: #121218;
+  --text-secondary: #61646b;
+  --text-muted: #94979e;
+  --text-heading-muted: #94979e;
+  --text-inverse: #ffffff;
+  --text-inverse-muted: #94979e;
+
+  --border-subtle: #e0e2e6;
+  --border-strong: rgba(18, 18, 24, 0.14);
+  --border-faint: rgba(18, 18, 24, 0.06);
+  --divider: #e0e2e6;
+
+  --button-primary-bg: linear-gradient(180deg, #9845ff 0%, #8624ff 100%);
+  --button-primary-hover: linear-gradient(180deg, #8b33ff 0%, #7808ff 100%);
+  --button-primary-text: #ffffff;
+  --button-secondary-bg: #ffffff;
+  --button-secondary-hover: #f1f2f4;
+  --button-secondary-text: #121218;
+  --button-light-bg: #121218;
+  --button-light-text: #ffffff;
+
+  --input-bg: #f7f7f8;
+  --input-border: #e0e2e6;
+  --input-text: #121218;
+  --input-placeholder: #94979e;
+
+  --shadow-card: 0 2px 8px -2px rgba(18, 18, 24, 0.06), 0 4px 16px -4px rgba(18, 18, 24, 0.05), 0 0 0 1px #edeef1;
+  --shadow-inset: inset 0 1px 2px rgba(18, 18, 24, 0.06), inset 0 0 0 1px #e0e2e6;
+  --shadow-glow: 0 8px 24px -4px rgba(134, 36, 255, 0.35);
+  --shadow-pricing-featured: 0 20px 50px -10px rgba(134, 36, 255, 0.32), 0 0 36px -8px rgba(134, 36, 255, 0.2);
+  --shadow-floating: 0 16px 40px -8px rgba(18, 18, 24, 0.14);
+
+  --pricing-standard-bg: #ffffff;
+  --pricing-standard-inset: #f7f7f8;
+  --pricing-standard-stripe: #edeef1;
+  --pricing-standard-text: #121218;
+  --pricing-standard-muted: #61646b;
+  --pricing-standard-btn-bg: #121218;
+  --pricing-standard-btn-text: #ffffff;
+
+  --pricing-featured-bg: #121218;
+  --pricing-featured-inset: #1b1b21;
+  --pricing-featured-stripe: #24242a;
+  --pricing-featured-text: #ffffff;
+  --pricing-featured-muted: #94979e;
+
+  --globe-opacity: 0.14;
+  --header-scrolled-bg: rgba(255, 255, 255, 0.85);
+}
