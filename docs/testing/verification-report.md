@@ -17,7 +17,7 @@
   - Share list Copy link displays `"Copied!"`
   - FAQ accordion expands answers
   - Pricing Testimonial Avatar Tabs switch between quotes
-  - Helpcenter category filters (`Company`: 6 expandable buttons? Wait: 4 matching items + header/other) and live search (`privacy`: 3 matching items) update results
+  - Helpcenter category filters (`Company`: 6 `button[aria-expanded]` elements = 4 matching Company questions + 2 header nav controls) and live search (`privacy`: 3 `button[aria-expanded]` elements = 1 matching question + 2 header nav controls) update results
   - Docs live search locates `Task Automation`
   - Newsletter & Sales forms submit to local API routes with Zod validation
 
