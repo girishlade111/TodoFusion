@@ -1,0 +1,17 @@
+{
+  "/robots.txt": {
+    "status": 200,
+    "url": "https://todofusion.framer.website/robots.txt",
+    "text": "User-agent: *\nAllow: /\n\nSitemap: https://todofusion.framer.website/sitemap.xml"
+  },
+  "/sitemap.xml": {
+    "status": 200,
+    "url": "https://todofusion.framer.website/sitemap.xml",
+    "text": "This XML file does not appear to have any style information associated with it. The document tree is shown below.\n\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://todofusion.framer.website/</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/features</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/pricing</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/blog</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/uikit</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/404</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/about</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/contact</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/helpcenter</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/docs</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/privacy-policy</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/contact/sales</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/stylokit</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/identify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/flowboard</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/protify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/platify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/taskify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/startify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/landify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/agentify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/flexify</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/nexus-ai</loc>\n</url>\n<url>\n<loc>https://todofusion.framer.website/integrations/codify</loc>\n</url>\n<url>\n<loc>"
+  },
+  "/this-route-does-not-exist-404": {
+    "status": 404,
+    "url": "https://todofusion.framer.website/this-route-does-not-exist-404",
+    "text": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\n\n404 error\n\nPage not found\n\nWe're sorry, but the page you're looking for could not be found. It may have been moved, deleted, or never existed in the first place.\n\nGo to home\nContact us\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies."
+  }
+}
