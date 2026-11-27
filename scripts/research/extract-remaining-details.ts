@@ -105,11 +105,11 @@ async function main() {
     return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
   });
   if (moonBox) {
-    await page.mouse.click(moonBox.x + moonBox.width / 2, moonBox.y + moonBox.height / 2);
+    await page.mouse.click(moonBox.x, moonBox.y);
     await page.waitForTimeout(600);
     out.lightTokens = await readTokenMap();
     // Switch back to dark for remaining tests
-    await page.mouse.click(moonBox.x + moonBox.width / 2, moonBox.y + moonBox.height / 2);
+    await page.mouse.click(moonBox.x, moonBox.y);
     await page.waitForTimeout(400);
   }
 
