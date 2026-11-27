@@ -1,0 +1,85 @@
+{
+  "helpRows": [
+    {
+      "q": "What should I do if I am experiencing issues with your service?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "How can I upgrade my current service package?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "Are there any subscription plans for your services?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "What types of customer support do you offer?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "How does your company ensure customer data privacy?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "What are your company’s core values?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "Where is your company located?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "What is the history of your company?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "Can I customize my settings as a new user?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "Is there a tutorial available for new users?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "What do I need to start using your services immediately after registration?",
+      "rawTextContent": "",
+      "rect": null
+    },
+    {
+      "q": "How do I create an account with your service?",
+      "rawTextContent": "",
+      "rect": null
+    }
+  ],
+  "afterAllClicks": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\nHow can we help?\n\nFind the answers to all your questions.\n\nSearch something\nFilter by:\nAll\nCompany\nGet Started\nServices\nWhat should I do if I am experiencing issues with your service?\nHow can I upgrade my current service package?\nAre there any subscription plans for your services?\nWhat types of customer support do you offer?\nHow does your company ensure customer data privacy?\nWhat are your company’s core values?\nWhere is your company located?\nWhat is the history of your company?\nCan I customize my settings as a new user?\nIs there a tutorial available for new users?\nWhat do I need to start using your services immediately after registration?\nHow do I create an account with your service?\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+  "tabs": [
+    {
+      "src": "https://framerusercontent.com/images/U06B9sXPfIJH61lq23ex7v0fY0.png",
+      "quote": "\"TodoFusion streamlined our workflows and doubled our productivity within just three months!\"",
+      "author": "Emily Smith",
+      "role": "CEO, Codify"
+    },
+    {
+      "src": "https://framerusercontent.com/images/jHYD50CG2aJRz34ro4OYrlsLDQ.jpg?width=541&height=541",
+      "quote": "\"TodoFusion streamlined our workflows and doubled our productivity within just three months!\"",
+      "author": "Emily Smith",
+      "role": "CEO, Codify"
+    },
+    {
+      "src": "https://framerusercontent.com/images/nFTyhTg9mtSiD0Oh51DGHixETM.jpg?width=583&height=583",
+      "quote": "\"TodoFusion streamlined our workflows and doubled our productivity within just three months!\"",
+      "author": "Emily Smith",
+      "role": "CEO, Codify"
+    }
+  ]
+}
