@@ -36,12 +36,15 @@ export function PricingComparison({
       </div>
 
       <div className={styles.grid}>
-        {pricingPlans.map((plan) => (
+        {pricingPlans.map((plan) => {
+          const PlanTag = headingAs === 'h1' ? 'h2' : 'h3';
+          const FeatTag = headingAs === 'h1' ? 'h3' : 'h4';
+          return (
           <div
             key={plan.id}
             className={`${styles.card} ${plan.isFeatured ? styles.featuredCard : styles.standardCard}`}
           >
-            <h3 className={styles.planTitle}>{plan.title}</h3>
+            <PlanTag className={styles.planTitle}>{plan.title}</PlanTag>
             <p className={styles.planDesc}>{plan.description}</p>
 
             <div className={styles.insetBox}>
@@ -69,7 +72,7 @@ export function PricingComparison({
               </div>
             </div>
 
-            <h4 className={styles.featuresHeading}>Features</h4>
+            <FeatTag className={styles.featuresHeading}>Features</FeatTag>
             <ul className={styles.featureList}>
               {plan.features.map((feat) => (
                 <li key={feat} className={styles.featureItem}>
@@ -79,7 +82,8 @@ export function PricingComparison({
               ))}
             </ul>
           </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

@@ -34,7 +34,9 @@ export function RoadmapGrid({
             ahead in your productivity journey.
           </p>
         </div>
-      ) : null}
+      ) : (
+        <h2 className="skip-link">Planned product roadmap</h2>
+      )}
 
       <div className={styles.grid}>
         {featuresRoadmap.map((item) => {

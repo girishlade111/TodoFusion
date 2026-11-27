@@ -50,7 +50,6 @@ export function NewsletterBanner({ standalone = false }: { standalone?: boolean 
         className={styles.globe}
         width={1036}
         height={490}
-        loading="lazy"
       />
       <div className={styles.copy}>
         <SplitHeading as="h2" primary="Join our" muted="newsletter" align="left" />

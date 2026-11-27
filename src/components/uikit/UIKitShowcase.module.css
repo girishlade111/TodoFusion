@@ -97,10 +97,12 @@
   display: flex;
   flex-direction: column;
   gap: 72px;
+  overflow-x: clip;
 }
 
 .categorySection {
   scroll-margin-top: 96px;
+  min-width: 0;
 }
 
 .categoryHeader {

@@ -14,11 +14,11 @@ html.light,
   --surface-inverse: #121218;
 
   --text-primary: #121218;
-  --text-secondary: #61646b;
-  --text-muted: #94979e;
-  --text-heading-muted: #94979e;
+  --text-secondary: #4e5158;
+  --text-muted: #5c5f66;
+  --text-heading-muted: #6e7179;
   --text-inverse: #ffffff;
-  --text-inverse-muted: #94979e;
+  --text-inverse-muted: #a4a7ae;
 
   --border-subtle: #e0e2e6;
   --border-strong: rgba(18, 18, 24, 0.14);

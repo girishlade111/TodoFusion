@@ -100,8 +100,14 @@ export function AnalyticsBento({
           </div>
 
           <div className={styles.inset}>
-            <div className={styles.donutWrap} role="img" aria-label={`Time distribution total ${current.total} tasks`}>
-              <svg width="164" height="164" viewBox="0 0 164 164">
+            <div className={styles.donutWrap}>
+              <svg
+                width="164"
+                height="164"
+                viewBox="0 0 164 164"
+                role="img"
+                aria-label={`Time distribution total ${current.total} tasks`}
+              >
                 <g transform="rotate(-90 82 82)">
                   {segments.map((seg) => {
                     const len = (seg.pct / 100) * circumference;

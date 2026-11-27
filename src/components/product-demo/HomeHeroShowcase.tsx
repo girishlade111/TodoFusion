@@ -54,13 +54,24 @@ export function HomeHeroShowcase({
       aria-label="Hero showcase"
     >
       <div className={styles.intro}>
-        <SplitHeading
-          as={headingAs}
-          primary="Boost Your Productivity with"
-          accent="TodoFusion"
-          breakBeforeAccent
-          size="hero"
-        />
+        {React.createElement(
+          headingAs,
+          {
+            style: {
+              fontSize: 'clamp(34px, 5vw, 56px)',
+              lineHeight: '1.14',
+              fontWeight: 600,
+              letterSpacing: '-0.02em',
+              textAlign: 'center',
+              color: 'var(--text-primary)',
+            },
+          },
+          <>
+            Boost Your Productivity
+            <br />
+            with <span style={{ color: 'var(--accent-purple-light)' }}>TodoFusion</span>
+          </>
+        )}
         <p className={styles.subtitle}>{siteConfig.description}</p>
         <div className={styles.ctaRow}>
           <Button href={siteConfig.templatePurchaseUrl} external variant="primary">
@@ -114,7 +125,7 @@ export function HomeHeroShowcase({
                       type="button"
                       className={styles.timerBtn}
                       onClick={() => setRunning((r) => !r)}
-                      aria-label={running ? 'Pause Web design timer' : 'Resume Web design timer'}
+                      title={running ? 'Pause Web design timer' : 'Resume Web design timer'}
                     >
                       {running ? (
                         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}>
@@ -122,7 +133,7 @@ export function HomeHeroShowcase({
                         </span>
                       ) : (
                         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4 }}>
-                          <Play size={10} /> Pause
+                          <Play size={10} /> Resume
                         </span>
                       )}
                     </button>

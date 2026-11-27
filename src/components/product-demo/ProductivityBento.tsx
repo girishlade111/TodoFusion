@@ -136,7 +136,7 @@ export function ProductivityBento({
               type="button"
               className={styles.timerRow}
               onClick={() => setTrackingActive((v) => !v)}
-              aria-label={trackingActive ? 'Pause overtime demo' : 'Start overtime demo'}
+              title={trackingActive ? 'Pause overtime demo' : 'Start overtime demo'}
               style={{ cursor: 'pointer', width: '100%', textAlign: 'left' }}
             >
               <span className={styles.timerLabel}>Web design</span>

@@ -269,7 +269,7 @@ export function SalesContactView({ standalone = false }: { standalone?: boolean 
             </span>
             <button
               type="button"
-              aria-labelledby="sales-size-label"
+              aria-label={`${companySize} Company size`}
               aria-haspopup="listbox"
               aria-expanded={sizeOpen}
               className={styles.selectBtn}

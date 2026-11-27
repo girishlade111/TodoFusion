@@ -15,11 +15,11 @@ html.dark,
   --surface-inverse: #ffffff;
 
   --text-primary: #ffffff;
-  --text-secondary: #94979e;
-  --text-muted: #61646b;
-  --text-heading-muted: #61646b;
+  --text-secondary: #a4a7ae;
+  --text-muted: #94979e;
+  --text-heading-muted: #6f727a;
   --text-inverse: #121218;
-  --text-inverse-muted: #61646b;
+  --text-inverse-muted: #5c5f66;
 
   --border-subtle: #24242a;
   --border-strong: rgba(255, 255, 255, 0.12);
