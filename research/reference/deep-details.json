@@ -1,0 +1,2677 @@
+{
+  "platformFonts": {
+    "body": [],
+    "h1": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "Instrument-Sans-SemiBold",
+        "isCustomFont": true,
+        "glyphCount": 39
+      }
+    ],
+    "h2": [
+      {
+        "familyName": "Segoe UI Emoji",
+        "postScriptName": "SegoeUIEmoji",
+        "isCustomFont": false,
+        "glyphCount": 1
+      },
+      {
+        "familyName": "Inter SemiBold",
+        "postScriptName": "Inter-SemiBold",
+        "isCustomFont": true,
+        "glyphCount": 43
+      }
+    ],
+    "h3": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "Instrument-Sans-Medium",
+        "isCustomFont": true,
+        "glyphCount": 20
+      }
+    ],
+    "p": [
+      {
+        "familyName": "Instrument Sans",
+        "postScriptName": "Instrument-Sans",
+        "isCustomFont": true,
+        "glyphCount": 154
+      }
+    ],
+    "a": [],
+    "button": []
+  },
+  "cssAudit": {
+    "customPropsCount": 175,
+    "customProps": {
+      "--token-fd8cdd66-ff0f-4453-91a6-c87d3b3adaca": "#fff",
+      "--token-b576ebcc-cc84-43bc-9c7f-1f4051d24710": "#fff0",
+      "--token-43a4e80e-77fe-43cd-af35-5b873236cc9d": "#f7f7f8",
+      "--token-553493c0-45e0-4b36-973e-c8d972a4dbec": "#f7f7f800",
+      "--token-6ac1188e-300e-493d-9529-dd53a207d46b": "#f7f7f8",
+      "--token-4231dd78-f334-4d13-a6ff-ee7cc63f5d38": "#f1f2f4",
+      "--token-18bb7bae-fff4-44ab-a985-129c6df514f9": "#09090f00",
+      "--token-73a90a76-7c5e-4f70-8820-1fc54e817544": "#09090f",
+      "--token-b65cd3a5-7144-4993-b819-ff2dcd546a4e": "#09090f",
+      "--token-7c7cb7d7-fef7-4519-84dd-a8d2d9aa9e35": "#24242a",
+      "--token-f9c185a1-c4b3-49b1-af9d-c95155996b1f": "#8624ff",
+      "--token-0343136c-24e5-48a4-b3ee-7f500055fbb6": "#1b1b21",
+      "--token-d80b51c5-7108-439e-a1dd-19f9dde9e031": "#fff",
+      "--token-ce98aedb-361a-4e02-9b82-e1fa06908ec0": "#f1f2f4",
+      "--token-c55a8987-c3e2-472c-a42e-f6d944f0a44e": "#f1f2f4",
+      "--token-0f04d7a7-259f-4c5d-a9ac-96f33464dab8": "#edeef100",
+      "--token-522ca597-4827-47d9-914a-c36f6cdcb025": "#edeef1",
+      "--token-963fb799-f410-4df7-ac9c-012b89b51745": "#fff",
+      "--token-5ebc5054-aebc-428a-80e4-02e6fa315dbd": "#f7f7f8",
+      "--token-c8657c1d-20c0-475a-8d33-049c14c93b85": "#fff",
+      "--token-6fbce4c6-cb2c-47d6-b607-84d554f7b0bd": "#121218",
+      "--token-464c598b-543f-4ed5-b0b0-d7f1c4a938d9": "#24242a",
+      "--token-c530ab7e-da46-445d-9b22-98d5f849f770": "#94979e",
+      "--token-00816b16-55b8-45fa-8798-fafa70d02efe": "#61646b",
+      "--token-610924dd-2bf5-4d09-8b87-fb136a0e1ac6": "#8624ff",
+      "--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb": "#e0e2e6",
+      "--token-3bf333d4-e703-45d6-b54d-2938bb0c6b2c": "#c9cdd2",
+      "--token-683f275f-04c5-4c69-b29e-76e68601004f": "#edeef1",
+      "--token-8e95a421-6579-4844-8f49-6daa9442f245": "#e0e2e6",
+      "--token-93bc9969-2418-44d4-aff5-f838c3736bbb": "#09090f",
+      "--token-eb495122-9b05-47ec-9e27-29898c622b0f": "#09090f",
+      "--token-48fc43a6-6025-4858-ac8b-8f0ba31ec17d": "#09090f",
+      "--token-5d987484-5abe-4c5a-8f87-98fe4e095e3d": "#8624ff",
+      "--token-50d6b485-ab6f-4826-8475-05b28b418a74": "#e973bb",
+      "--token-c59819cb-24d6-4fd9-8271-83b61be7183b": "#22d2ed",
+      "--token-07975249-4830-4fd2-984c-f3222d0baf3d": "#0e738f",
+      "--token-7b2786e8-b2ec-4523-af4a-9cedbfe5a955": "#95b500",
+      "--token-d45d033a-9b72-41a4-bf71-eb0db8c8a37f": "#718902",
+      "--token-f116e7fe-f322-4b2a-b2af-2e12b6722e83": "#718902",
+      "--token-2d9ae51b-7d9d-4b4b-bbaf-a3256134dfd7": "#f49d0b",
+      "--token-b1629a53-9053-4b08-b3a0-8262f921c3e5": "#d87706",
+      "--token-0b6a2672-a26d-4e53-b66d-4a3801d1bf88": "#f23f5d",
+      "--token-ca861345-41df-4872-9b06-df37c2a75429": "#146ef5",
+      "--token-0b8ce797-a51d-46c7-8f19-c0ce67eb5944": "#e2508a",
+      "--token-274f97a7-44e8-4d08-b140-6e11fcaf0b39": "#2677b5",
+      "--token-2e1fc342-b8c4-42e1-ba4f-087f6dfb988a": "#f7f7f800",
+      "--token-8797c384-092b-4304-a998-9c1158ec3c88": "#fff3",
+      "--token-98408eaf-6c8c-4fc2-9fa0-ba27fdf0045f": "#ffffff1a",
+      "--token-2e6cb9f5-0935-4ba8-81f3-6fcd151c1c41": "#ffffff0d",
+      "--token-103ee084-57a2-464a-b1fe-04497ba22bba": "#fff",
+      "--token-436f64fa-111c-450d-9328-461dd3ce52cf": "#fff",
+      "--token-6bbe8101-ebce-488d-8187-75dd774a0c52": "#24242a",
+      "--token-09d281ad-1357-4f4a-9c6d-49c2b7261c17": "#e0e2e6",
+      "--token-22c0fd17-223f-4785-8998-49b813844884": "#fff",
+      "--token-eb8e233a-3694-4b7d-bd90-267d3426bce5": "#7808ff",
+      "--token-34604669-c203-4a39-b423-eec4589cc982": "#fff0",
+      "--token-76bb7d2b-2192-4e22-bee9-121c3b7bbb13": "#e0e2e600",
+      "--token-2e0f503a-99a0-4428-8c88-fc124b6f225d": "#12121800",
+      "--token-524e6be9-b286-4326-9acf-c99b36bc702e": "#1212180d",
+      "--token-e8ca53e4-aec6-4fa2-a89d-cdc73cbe4bb4": "#1212181a",
+      "--token-4e104b01-ccea-4dbd-8704-6dc14bd3ecf4": "#1212181a",
+      "--token-6a472bea-fa01-47da-be49-0c1ac0057806": "#0000001a",
+      "--token-492a0946-0e57-4da2-82de-c0b651a44c9b": "#94979e",
+      "--token-53ca9f55-cdbd-4c58-ac7c-4af44b91d29f": "#ffd7ff",
+      "--token-8ce2fd72-fa19-441e-b620-3879050cdab8": "#8624ff",
+      "--token-8dbb7159-474a-4e99-b279-4e69af9f0373": "#121218",
+      "--token-6051e7c3-b895-42d6-90c9-6ac7c3ae2b9b": "#24242a",
+      "--token-992db5b5-8e87-43ba-a423-bd7307a80421": "#24242a",
+      "--token-fe4cfc39-a802-4d08-99a9-f00aa594fa7f": "#121218",
+      "--token-95ccf803-d5ca-4778-9f9a-62b35b01436a": "#24242a",
+      "--token-faebd533-12b8-46bf-a99d-2c7547a1fa24": "#ffffff80",
+      "--token-bd226f5a-df5a-4142-8b48-cd33bbbb7dea": "#fff0",
+      "--token-729fa4a4-5b86-42dd-8c29-0ba49caaebc9": "#fff",
+      "--token-cbf3f83d-e5c5-44e1-ab0b-9950771adbaa": "#1212181a",
+      "--token-4ff899b9-a464-4373-8de1-7b9151ef5105": "#22d2ed4d",
+      "--token-4dca886b-3982-4df8-9380-da93cdbb5ef1": "#22d2ed33",
+      "--token-1e69a44b-1798-4970-bed5-921b0a762771": "#e973bb4d",
+      "--token-60e24842-0992-4c24-99d8-17d921cb2dbe": "#e973bb33",
+      "--token-388d4053-538c-45df-acaa-ba41d2aea259": "#9f75ff4d",
+      "--token-51c98578-79d6-49f6-8fda-f81b54334d2d": "#9f75ff33",
+      "--token-7bddad14-12a6-4624-b605-5fcfd1b429df": "#fff0",
+      "--token-4802dcfb-470b-4bac-9cd0-5fb0732cc262": "#95b5004d",
+      "--token-6190f16c-87f5-48f8-b991-23632679ea1a": "#95b5004d",
+      "--token-0626808b-9b35-41b2-a062-622573057ed4": "#f49d0b4d",
+      "--token-6d24dea0-c329-42b1-8f99-fe0f6b25cff9": "#f49d0b4d",
+      "--token-277e2a1e-d6e4-4601-b3ac-4dea279717be": "#f23f5d4d",
+      "--token-2eb951a9-0eb5-49dc-a473-d22df6355661": "#f23f5d4d",
+      "--token-d43f7c62-2470-4ebe-9108-e5cbd24e1ee7": "#edeef1",
+      "--token-4494045e-a0d4-4b84-a22e-0e6bed6c34af": "#e0e2e6",
+      "--token-d13561b1-2db0-4599-a73a-d45fdc438ab3": "#fff",
+      "--token-53e2bfe5-ec96-40ef-a120-73950b73aee7": "#0000001a",
+      "--token-abcb8443-b10d-4714-ac37-e5885fc3fe8e": "#e0e2e6",
+      "--token-0e55a932-a98d-4357-b425-373984fc62e8": "#e0e2e6",
+      "--token-85e1ff3e-122d-4aa1-b1bb-af6f4148ee35": "#e0e2e6",
+      "--token-90cca511-6fef-4d0f-a627-7ba10126cbfe": "#e0e2e6",
+      "--token-35428989-61d5-434f-a127-c10656f91ae0": "#e0e2e6",
+      "--token-68feac33-62e2-4794-ad75-34ff3588ead7": "#e0e2e6",
+      "--token-37bbf96f-e387-4b13-9d90-0073f9d7d445": "#fff",
+      "--token-ff5cb8ec-e901-4bf4-8c05-c31f41fdcb23": "#fff",
+      "--token-a737d3e4-17b0-4e08-917f-9d8e3e6379ce": "#fff",
+      "--token-4ced0e81-5c79-4c47-88ed-15215dc0a29e": "#fff",
+      "--token-671fbbae-8207-49bd-b9c0-bfc7f5e5dac4": "#fff",
+      "--token-3e64b3f7-295f-459c-afd6-20f1d2b8ad99": "#fff",
+      "--token-cc225d36-c69c-45b3-ac2b-88c4e4deaa04": "#8624ff26",
+      "--token-299d63b6-f889-4ca1-a8cf-c7c1f4fd6e9a": "#09090fcc",
+      "--text-decoration": "var(--framer-link-current-text-decoration-style,var(--framer-link-text-decoration-style,var(--framer-text-decoration-style,solid)))var(--framer-link-current-text-decoration,var(--framer-link-text-decoration,var(--framer-text-decoration,none)))var(--framer-link-current-text-decoration-color,var(--framer-link-text-decoration-color,var(--framer-text-decoration-color,currentcolor)))var(--framer-link-current-text-decoration-thickness,var(--framer-link-text-decoration-thickness,var(--framer-text-decoration-thickness,auto)))",
+      "--text-decoration-skip-ink": "var(--framer-link-current-text-decoration-skip-ink,var(--framer-link-text-decoration-skip-ink,var(--framer-text-decoration-skip-ink)))",
+      "--text-underline-offset": "var(--framer-link-current-text-decoration-offset,var(--framer-link-text-decoration-offset,var(--framer-text-decoration-offset)))",
+      "--font-family": "var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family)))",
+      "--font-style": "var(--framer-link-current-font-style,var(--framer-link-font-style,var(--framer-font-style)))",
+      "--font-weight": "var(--framer-link-current-font-weight,var(--framer-link-font-weight,var(--framer-font-weight)))",
+      "--text-color": "var(--framer-link-current-text-color,var(--framer-link-text-color,var(--framer-text-color)))",
+      "--letter-spacing": "var(--framer-letter-spacing)",
+      "--font-size": "var(--framer-link-current-font-size,var(--framer-link-font-size,var(--framer-font-size)))",
+      "--text-transform": "var(--framer-link-current-text-transform,var(--framer-link-text-transform,var(--framer-text-transform)))",
+      "--line-height": "var(--framer-line-height)",
+      "--framer-link-text-color": "var(--token-00816b16-55b8-45fa-8798-fafa70d02efe,#61646b)",
+      "--framer-link-text-decoration": "none",
+      "--framer-input-focused-transition": "all .3s cubic-bezier(.44,0,.56,1)0s",
+      "--framer-input-font-color": "var(--token-6fbce4c6-cb2c-47d6-b607-84d554f7b0bd,#121218)",
+      "--framer-input-font-family": "\"Instrument Sans\"",
+      "--framer-input-font-letter-spacing": "0em",
+      "--framer-input-font-line-height": "1.2em",
+      "--framer-input-font-size": "14px",
+      "--framer-input-font-weight": "400",
+      "--framer-input-icon-color": "#999",
+      "--framer-input-padding": "12px 32px 12px 12px",
+      "--framer-input-placeholder-color": "var(--token-c530ab7e-da46-445d-9b22-98d5f849f770,#94979e)",
+      "--framer-will-change-override": "none",
+      "--framer-will-change-filter-override": "none",
+      "--framer-font-family": "\"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif",
+      "--framer-font-style": "normal",
+      "--framer-font-weight": "400",
+      "--framer-text-color": "var(--token-00816b16-55b8-45fa-8798-fafa70d02efe,#61646b)",
+      "--framer-font-size": "15px",
+      "--framer-letter-spacing": "0em",
+      "--framer-text-transform": "none",
+      "--framer-text-decoration": "none",
+      "--framer-text-decoration-style": "none",
+      "--framer-text-decoration-color": "none",
+      "--framer-text-decoration-thickness": "none",
+      "--framer-text-decoration-skip-ink": "none",
+      "--framer-text-decoration-offset": "none",
+      "--framer-line-height": "22px",
+      "--framer-text-alignment": "start",
+      "--framer-font-open-type-features": "normal",
+      "--framer-text-background-color": "initial",
+      "--framer-text-background-radius": "initial",
+      "--framer-text-background-corner-shape": "initial",
+      "--framer-text-background-padding": "initial",
+      "--list-style-type": "decimal",
+      "--font-variation-settings": "normal",
+      "--framer-font-family-bold": "\"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif",
+      "--framer-font-family-bold-italic": "\"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif",
+      "--framer-font-family-italic": "\"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif",
+      "--framer-font-style-bold": "normal",
+      "--framer-font-style-bold-italic": "italic",
+      "--framer-font-style-italic": "italic",
+      "--framer-font-weight-bold": "600",
+      "--framer-font-weight-bold-italic": "700",
+      "--framer-font-weight-italic": "400",
+      "--framer-paragraph-spacing": "15px",
+      "--framer-text-stroke-color": "initial",
+      "--framer-text-stroke-width": "initial",
+      "--border-bottom-width": "1px",
+      "--border-color": "var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6)",
+      "--border-left-width": "0px",
+      "--border-right-width": "0px",
+      "--border-style": "solid",
+      "--border-top-width": "0px",
+      "--framer-link-current-text-color": "var(--token-00816b16-55b8-45fa-8798-fafa70d02efe,#61646b)",
+      "--framer-link-current-text-decoration": "none",
+      "--framer-link-hover-text-color": "var(--token-6fbce4c6-cb2c-47d6-b607-84d554f7b0bd,#121218)",
+      "--framer-link-hover-text-decoration": "none",
+      "--framer-text-wrap": "balance"
+    },
+    "themeRules": [
+      "body { --token-fd8cdd66-ff0f-4453-91a6-c87d3b3adaca: #fff; --token-b576ebcc-cc84-43bc-9c7f-1f4051d24710: #fff0; --token-43a4e80e-77fe-43cd-af35-5b873236cc9d: #f7f7f8; --token-553493c0-45e0-4b36-973e-c8d972a4dbec: #f7f7f800; --token-6ac1188e-300e-493d-9529-dd53a207d46b: #f7f7f8; --token-4231dd78-f334-4d13-a6ff-ee7cc63f5d38: #f1f2f4; --token-18bb7bae-fff4-44ab-a985-129c6df514f9: #09090f00; --token-73a90a76-7c5e-4f70-8820-1fc54e817544: #09090f; --token-b65cd3a5-7144-4993-b819-ff2dcd546a4e: #09090f; --token-7c7cb7d7-fef7-4519-84dd-a8d2d9aa9e35: #24242a; --token-f9c185a1-c4b3-49b1-af9d-c95155996b1f: #8624ff; --token-0343136c-24e5-48a4-b3ee-7f500055fbb6: #1b1b21; --token-d80b51c5-7108-439e-a1dd-19f9dde9e031: #fff; --token-ce98aedb-361a-4e02-9b82-e1fa06908ec0: #f1f2f4; --token-c55a8987-c3e2-472c-a42e-f6d944f0a44e: #f1f2f4; --token-0f04d7a7-259f-4c5d-a9ac-96f33464dab8: #edeef100; --token-522ca597-4827-47d9-914a-c36f6cdcb025: #edeef1; --token-963fb799-f410-4df7-ac9c-012b89b51745: #fff; --token-5ebc5054-aebc-428a-80e4-02e6fa315dbd: #f7f7f8; --token-c8657c1d-20c0-475a-8d33-049c14c93b85: #fff; --token-6fbce4c6-cb2c-47d6-b607-84d554f7b0bd: #121218; --token-464c598b-543f-4ed5-b0b0-d7f1c4a938d9: #24242a; --token-c530ab7e-da46-445d-9b22-98d5f849f770: #94979e; --token-00816b16-55b8-45fa-8798-fafa70d02efe: #61646b; --token-610924dd-2bf5-4d09-8b87-fb136a0e1ac6: #8624ff; --token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb: #e0e2e6; --token-3bf333d4-e703-45d6-b54d-2938bb0c6b2c: #c9cdd2; --token-683f275f",
+      "@media (prefers-color-scheme: light) {\n  body { --token-fd8cdd66-ff0f-4453-91a6-c87d3b3adaca: #121218; --token-43a4e80e-77fe-43cd-af35-5b873236cc9d: #121218; --token-553493c0-45e0-4b36-973e-c8d972a4dbec: #1b1b2100; --token-6ac1188e-300e-493d-9529-dd53a207d46b: #1b1b21; --token-4231dd78-f334-4d13-a6ff-ee7cc63f5d38: #09090f; --token-18bb7bae-fff4-44ab-a985-129c6df514f9: #f1f2f400; --token-73a90a76-7c5e-4f70-8820-1fc54e817544: #f1f2f4; --token-b65cd3a5-7144-4993-b819-ff2dcd546a4e: #fff; --token-7c7cb7d7-fef7-4519-84dd-a8d2d9aa9e35: #24242a; --token-0343136c-24e5-48a4-b3ee-7f500055fbb6: #f1f2f4; --token-d80b51c5-7108-439e-a1dd-19f9dde9e031: #09090f; --token-ce98aedb-361a-4e02-9b82-e1fa06908ec0: #1b1b21; --token-c55a8987-c3e2-472c-a42e-f6d944f0a44e: #121218; --token-0f04d7a7-259f-4c5d-a9ac-96f33464dab8: #24242a00; --token-522ca597-4827-47d9-914a-c36f6cdcb025: #24242a; --token-963fb799-f410-4df7-ac9c-012b89b51745: #1b1b21; --token-5ebc5054-aebc-428a-80e4-02e6fa315dbd: #09090f; --token-c8657c1d-20c0-475a-8d33-049c14c93b85: #121218; --token-6fbce4c6-cb2c-47d6-b607-84d554f7b0bd: #fff; --token-464c598b-543f-4ed5-b0b0-d7f1c4a938d9: #f1f2f4; --token-c530ab7e-da46-445d-9b22-98d5f849f770: #61646b; --token-00816b16-55b8-45fa-8798-fafa70d02efe: #94979e; --token-610924dd-2bf5-4d09-8b87-fb136a0e1ac6: #b8f; --token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb: #1b1b21; --token-3bf333d4-e703-45d6-b54d-2938bb0c6b2c: #24242a; --token-683f275f-04c5-4c69-b29e-76e68601004f: #17171d; --token-8e95a421-6579-484",
+      ".framer-4onsN.framer-j0gchh { background-color: var(--token-43a4e80e-77fe-43cd-af35-5b873236cc9d,#f7f7f8); height: min-content; overflow: var(--overflow-clip-fallback,clip); flex-flow: column; place-content: center flex-start; align-items: center; gap: 0px; width: 100%; padding: 0px; display: flex; position: relative; }",
+      ".framer-4onsN.framer-1edtrtd { background-color: var(--token-43a4e80e-77fe-43cd-af35-5b873236cc9d,#f7f7f8); user-select: none; z-index: 8; position: fixed; inset: 0px; }",
+      ".framer-4onsN .framer-1oykou2 { backdrop-filter: blur(1px); box-shadow: 0px -1px 0px 0px var(--token-436f64fa-111c-450d-9328-461dd3ce52cf,#fff),0px 2px 4px -2px var(--token-524e6be9-b286-4326-9acf-c99b36bc702e,#1212180d),0px 4px 8px -2px var(--token-524e6be9-b286-4326-9acf-c99b36bc702e,#1212180d),0px 1px 0px 0px var(--token-09d281ad-1357-4f4a-9c6d-49c2b7261c17,#e0e2e6),0px 1px 0px 0px var(--token-683f275f-04c5-4c69-b29e-76e68601004f,#edeef1),0px 8px 16px -4px #8624ff33; border-radius: 16px; flex-flow: row; flex: 0 0 auto; place-content: flex-end flex-start; align-items: flex-end; gap: 64px; width: 100%; max-width: 1200px; height: min-content; padding: 64px; display: flex; position: relative; overflow: visible; }",
+      ".framer-4onsN .framer-ls6w65 { background-color: var(--token-43a4e80e-77fe-43cd-af35-5b873236cc9d,#f7f7f8); box-shadow: 0px 1px 0px 0px var(--token-436f64fa-111c-450d-9328-461dd3ce52cf,#fff),inset 0px 1px 0px 0px var(--token-09d281ad-1357-4f4a-9c6d-49c2b7261c17,#e0e2e6),inset 0px 2px 4px -2px #1212181a,inset 0px 4px 8px -2px #1212180d; border-radius: 8px; flex-flow: row; flex: 1 0 0px; place-content: flex-start; align-items: flex-start; gap: 4px; width: 1px; height: min-content; padding: 4px; display: flex; position: relative; overflow: visible; }",
+      ".framer-4onsN .framer-1o7rgcz { --framer-input-focused-transition: all .3s cubic-bezier(.44,0,.56,1)0s; --framer-input-font-color: var(--token-6fbce4c6-cb2c-47d6-b607-84d554f7b0bd,#121218); --framer-input-font-family: \"Instrument Sans\"; --framer-input-font-letter-spacing: 0em; --framer-input-font-line-height: 1.2em; --framer-input-font-size: 14px; --framer-input-font-weight: 400; --framer-input-icon-color: #999; --framer-input-padding: 12px 32px 12px 12px; --framer-input-placeholder-color: var(--token-c530ab7e-da46-445d-9b22-98d5f849f770,#94979e); flex: 1 0 0px; width: 1px; height: 40px; position: relative; }",
+      ".framer-4onsN .framer-2o0mhy { background: linear-gradient(270deg,var(--token-b576ebcc-cc84-43bc-9c7f-1f4051d24710,#fff0)0%,var(--token-436f64fa-111c-450d-9328-461dd3ce52cf,#fff)75%,var(--token-b576ebcc-cc84-43bc-9c7f-1f4051d24710,#fff0)100%); flex: 0 0 auto; width: 53%; height: 1px; position: absolute; bottom: 0px; left: 24px; overflow: hidden; }",
+      ".framer-4onsN .framer-1mqici5, .framer-4onsN .framer-e2vv4d { background: linear-gradient(270deg,var(--token-b576ebcc-cc84-43bc-9c7f-1f4051d24710,#fff0)0%,var(--token-53ca9f55-cdbd-4c58-ac7c-4af44b91d29f,#ffd7ff)75%,var(--token-b576ebcc-cc84-43bc-9c7f-1f4051d24710,#fff0)100%); mix-blend-mode: color-dodge; z-index: 1; flex: 0 0 auto; width: 53%; height: 1px; position: absolute; bottom: -2px; left: 24px; overflow: hidden; }",
+      ".framer-dD2hi .framer-styles-preset-1mqaniq:not(.rich-text-wrapper), .framer-dD2hi .framer-styles-preset-1mqaniq.rich-text-wrapper h6 { --framer-font-family: \"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif; --framer-font-family-bold: \"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif; --framer-font-family-bold-italic: \"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif; --framer-font-family-italic: \"Instrument Sans\",\"Instrument Sans Placeholder\",sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 13px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0em; --framer-line-height: 18px; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-6fbce4c6-cb2c-47d6-b607-84d554f7b0bd,#121218); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }",
+      ".framer-fHZvJ.framer-72rtr7 { background-color: var(--token-43a4e80e-77fe-43cd-af35-5b873236cc9d,#f7f7f8); flex-flow: column; place-content: center flex-start; align-items: center; gap: 0px; width: 1200px; height: min-content; padding: 0px; display: flex; position: relative; overflow: visible; }",
+      ".framer-fHZvJ .framer-sbusev { box-shadow: 0px 0px 0px 1px var(--token-103ee084-57a2-464a-b1fe-04497ba22bba,#fff),0px 16px 24px -6px #8624ff00,0px 24px 48px -4px #8624ff00; will-change: var(--framer-will-change-override,transform); border-radius: 16px; flex-flow: column; flex: 1 0 0px; place-content: flex-start; align-items: flex-start; gap: 10px; width: 1px; height: 100%; padding: 0px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1i6v5pj { backdrop-filter: blur(32px); background-color: var(--token-fd8cdd66-ff0f-4453-91a6-c87d3b3adaca,#fff); box-shadow: inset 0px 0px 0px 1px var(--token-8797c384-092b-4304-a998-9c1158ec3c88,#fff3),0px 0px 6px 0px #12121833; will-change: var(--framer-will-change-override,transform); z-index: 1; border-radius: 8px; flex-flow: column; flex: 0 0 auto; place-content: flex-start; align-items: flex-start; gap: 16px; width: 240px; height: 100%; padding: 16px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1verfjz { background-color: var(--token-ce98aedb-361a-4e02-9b82-e1fa06908ec0,#f1f2f4); border-radius: 4px; flex-flow: row; flex: 0 0 auto; place-content: center flex-start; align-items: center; gap: 4px; width: min-content; height: min-content; padding: 4px 9px; display: flex; position: relative; overflow: visible; }",
+      ".framer-fHZvJ .framer-nzmrum { background-color: var(--token-683f275f-04c5-4c69-b29e-76e68601004f,#edeef1); will-change: var(--framer-will-change-override,transform); border-radius: 999px; flex: 1 0 0px; width: 1px; height: 4px; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-bp5fym { background: linear-gradient(269deg,#9f75ff 0%,var(--token-50d6b485-ab6f-4826-8475-05b28b418a74,#e973bb)100%); will-change: var(--framer-will-change-override,transform); border-radius: 999px; flex: 0 0 auto; width: 20%; height: 4px; position: absolute; top: 0px; left: 0px; overflow: hidden; }",
+      ".framer-fHZvJ .framer-8qhsra, .framer-fHZvJ .framer-mxpnid { background-color: var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6); flex: 0 0 auto; width: 100%; height: 1px; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1jhe58s, .framer-fHZvJ .framer-f9f1iw { background-color: var(--token-ce98aedb-361a-4e02-9b82-e1fa06908ec0,#f1f2f4); cursor: grab; will-change: var(--framer-will-change-override,transform); border-radius: 4px; flex-flow: row; flex: 0 0 auto; place-content: center space-between; align-items: center; width: 100%; height: min-content; padding: 6px 12px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1a7jtlm { backdrop-filter: blur(32px); background-color: var(--token-d80b51c5-7108-439e-a1dd-19f9dde9e031,#fff); box-shadow: inset 0px 0px 0px 1px var(--token-8797c384-092b-4304-a998-9c1158ec3c88,#fff3),0px 0px 6px 0px #12121833; will-change: var(--framer-will-change-override,transform); z-index: 1; border-radius: 8px; flex-flow: column; flex: 0 0 auto; place-content: flex-start; align-items: flex-start; gap: 0px; width: 816px; height: 100%; padding: 0px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-15msd9n { background-color: var(--token-43a4e80e-77fe-43cd-af35-5b873236cc9d,#f7f7f8); flex-flow: row; flex: 0 0 auto; place-content: flex-start; align-items: flex-start; gap: 0px; width: 100%; height: 34px; padding: 0px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-rbsml0 { box-shadow: inset 0px -1px 0px 0px var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6); flex-flow: row; flex: 0 0 auto; place-content: center flex-start; align-items: center; gap: 8px; width: min-content; height: 100%; padding: 0px 16px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-bhbyjv, .framer-fHZvJ .framer-1lq1qcn { box-shadow: -1px 0px 0px 0px var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6),inset 0px -1px 0px 0px var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6); flex-flow: row; flex: 0 0 auto; place-content: center; align-items: center; gap: 8px; width: 34px; height: 100%; padding: 0px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-5b8lb { background-color: var(--token-d80b51c5-7108-439e-a1dd-19f9dde9e031,#fff); box-shadow: -1px 0px 0px 0px var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6); flex-flow: row; flex: 0 0 auto; place-content: center; align-items: center; gap: 8px; width: min-content; height: 100%; padding: 0px 20px 0px 9px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-5ts9w4 { box-shadow: inset 0px -1px 0px 0px var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6),-1px 0px 0px 0px var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6); flex-flow: row; flex: 1 0 0px; place-content: center; align-items: center; gap: 8px; width: 1px; height: 100%; padding: 0px 9px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-lzgz0t { aspect-ratio: 1.71366 / 1; background-color: var(--token-43a4e80e-77fe-43cd-af35-5b873236cc9d,#f7f7f8); height: var(--framer-aspect-ratio-supported,476px); flex: 0 0 auto; gap: 0px; width: 100%; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-q4ffrf { --border-bottom-width: 1px; --border-color: var(--token-2340ba74-d035-45d6-8c7b-7ed2b23ba6eb,#e0e2e6); --border-left-width: 0px; --border-right-width: 0px; --border-style: solid; --border-top-width: 0px; background-color: var(--token-d80b51c5-7108-439e-a1dd-19f9dde9e031,#fff); z-index: 1; flex-flow: row; flex: 0 0 auto; place-content: center flex-start; align-items: center; gap: 0px; height: 43px; padding: 0px 11px; display: flex; position: absolute; top: 0px; left: 0px; right: 0px; overflow: visible; }",
+      ".framer-fHZvJ .framer-z4q3ta { background-color: var(--token-6ac1188e-300e-493d-9529-dd53a207d46b,#f7f7f8); cursor: pointer; will-change: var(--framer-will-change-override,transform); border-radius: 6px; flex-flow: row; flex: 0 0 auto; place-content: center; align-items: center; gap: 6px; width: 34px; height: 21px; padding: 0px; display: flex; position: relative; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px; }",
+      ".framer-fHZvJ .framer-1atlvhf, .framer-fHZvJ .framer-1t57snw { background-color: var(--token-6ac1188e-300e-493d-9529-dd53a207d46b,#f7f7f8); cursor: pointer; will-change: var(--framer-will-change-override,transform); border-radius: 6px; flex: 0 0 auto; width: 21px; height: 21px; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-czcfdd { background-color: var(--token-6ac1188e-300e-493d-9529-dd53a207d46b,#f7f7f8); cursor: pointer; will-change: var(--framer-will-change-override,transform); border-radius: 6px; flex-flow: column; flex: 0 0 auto; place-content: center; align-items: center; gap: 10px; width: 39px; height: 21px; padding: 0px 10px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1k04obq { background-color: var(--token-130e367a-e9eb-401a-9abe-0e0fede6be7b,#009aff); cursor: pointer; will-change: var(--framer-will-change-override,transform); border-radius: 6px; flex-flow: column; flex: 0 0 auto; place-content: center; align-items: center; gap: 10px; width: 46px; height: 21px; padding: 0px 10px; display: flex; position: relative; overflow: hidden; box-shadow: rgba(0, 153, 225, 0.3) 0px 4px 8px; }",
+      ".framer-fHZvJ .framer-663mno { background-color: var(--token-09f22285-1280-482e-8b22-1cef593bf6a7,#fff); cursor: grab; z-index: 0; flex: 0 0 auto; width: 694px; height: 411px; position: absolute; top: 139px; left: 61px; overflow: visible; }",
+      ".framer-fHZvJ .framer-13v9kza { background-color: var(--token-522ca597-4827-47d9-914a-c36f6cdcb025,#f7f7f8); will-change: var(--framer-will-change-override,transform); border-radius: 8px; flex-flow: row; flex: 0 0 auto; place-content: center flex-start; align-items: center; gap: 6px; height: 28px; padding: 7px; display: flex; position: absolute; top: -39px; left: 0px; right: 0px; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1kzu2b1, .framer-fHZvJ .framer-17vwfd6 { background-color: var(--token-c530ab7e-da46-445d-9b22-98d5f849f770,#94979e); will-change: var(--framer-will-change-override,transform); border-radius: 4px; flex-flow: row; flex: 0 0 auto; place-content: center; align-items: center; gap: 10px; width: 14px; height: 14px; padding: 0px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1ex0atz { background-color: var(--token-98ea2f69-4c41-4e53-9c8c-7a98946cba16,#e6e6e6); will-change: var(--framer-will-change-override,transform); border-radius: 999px; flex-flow: row; flex: 0 0 auto; place-content: center; align-items: center; gap: 6px; width: min-content; height: min-content; padding: 4px 12px 4px 10px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-12w5c8u { --border-bottom-width: 1px; --border-color: #009aff; --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; background-color: var(--token-09f22285-1280-482e-8b22-1cef593bf6a7,#fff); height: var(--framer-aspect-ratio-supported,8px); will-change: var(--framer-will-change-override,transform); z-index: 1; border-radius: 999px; flex: 0 0 auto; width: 8px; position: absolute; top: -4px; left: -4px; overflow: hidden; }",
+      ".framer-fHZvJ .framer-7i5914 { background-color: var(--token-8766da81-4b16-4dc5-9abd-8dbd5bdab57d,#1a1a1a); will-change: var(--framer-will-change-override,transform); border-radius: 6px; flex-flow: column; flex: 0 0 auto; place-content: center; align-items: center; gap: 0px; width: min-content; height: min-content; padding: 10px 16px; display: flex; position: relative; overflow: hidden; }",
+      ".framer-fHZvJ .framer-130s0cy { --border-bottom-width: 1px; --border-color: #009aff; --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; background-color: var(--token-09f22285-1280-482e-8b22-1cef593bf6a7,#fff); height: var(--framer-aspect-ratio-supported,8px); will-change: var(--framer-will-change-override,transform); z-index: 1; border-radius: 999px; flex: 0 0 auto; width: 8px; position: absolute; top: -4px; right: -4px; overflow: hidden; }",
+      ".framer-fHZvJ .framer-za5z64 { --border-bottom-width: 1px; --border-color: #009aff; --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; background-color: var(--token-09f22285-1280-482e-8b22-1cef593bf6a7,#fff); height: var(--framer-aspect-ratio-supported,8px); will-change: var(--framer-will-change-override,transform); z-index: 1; border-radius: 999px; flex: 0 0 auto; width: 8px; position: absolute; bottom: -4px; right: -4px; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1ylwgm8 { --border-bottom-width: 1px; --border-color: #009aff; --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; background-color: var(--token-09f22285-1280-482e-8b22-1cef593bf6a7,#fff); height: var(--framer-aspect-ratio-supported,8px); will-change: var(--framer-will-change-override,transform); z-index: 1; border-radius: 999px; flex: 0 0 auto; width: 8px; position: absolute; bottom: -4px; left: -4px; overflow: hidden; }",
+      ".framer-fHZvJ .framer-1xhm2zf { background-color: var(--token-8766da81-4b16-4dc5-9abd-8dbd5bdab57d,#1a1a1a); will-change: var(--framer-will-change-override,transform); border-radius: 6px; flex-flow: column; flex: 0 0 auto; place-content: center; align-items: center; gap: 0px; width: min-content; height: min-content; padding: 6px 12px; display: flex; position: absolute; top: 50%; right: 32px; overflow: hidden; transform: translateY(-50%); }"
+    ],
+    "patternRules": [],
+    "fontFaces": [
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 400; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu2ZGRu3k.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 400; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu15GR.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 500; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu2ZGRu3k.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 500; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu15GR.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 600; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu2ZGRu3k.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 600; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu15GR.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 700; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu2ZGRu3k.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: italic; font-weight: 700; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu15GR.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 400; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0She1YmV.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 400; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0SZe1Q.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 500; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0She1YmV.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 500; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0SZe1Q.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 600; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0She1YmV.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 600; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0SZe1Q.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 700; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0She1YmV.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Instrument Sans\"; font-style: normal; font-weight: 700; font-stretch: 100%; font-display: swap; src: url(\"https://fonts.gstatic.com/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0SZe1Q.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Fragment Mono\"; font-style: normal; font-weight: 400; src: url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+      "@font-face { font-family: \"Fragment Mono\"; font-style: normal; font-weight: 400; src: url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: \"Fragment Mono\"; font-style: normal; font-weight: 400; src: url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"SF Pro Display Regular\"; src: url(\"https://framerusercontent.com/assets/JlbZvh2zfRZAGLbtHVY830OtpU.woff2\"); }",
+      "@font-face { font-family: \"SF Pro Display Medium\"; src: url(\"https://framerusercontent.com/assets/dTVfXNKgID7VXkl9c6QSFxH4c.woff2\"); }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+1F00-1FFF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+370-3FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2\"); font-display: swap; font-style: normal; font-weight: 600; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2\"); font-display: swap; font-style: normal; font-weight: 600; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2\"); font-display: swap; font-style: normal; font-weight: 600; unicode-range: U+1F00-1FFF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2\"); font-display: swap; font-style: normal; font-weight: 600; unicode-range: U+370-3FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2\"); font-display: swap; font-style: normal; font-weight: 600; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/yDtI2UI8XcEg1W2je9XPN3Noo.woff2\"); font-display: swap; font-style: normal; font-weight: 600; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2\"); font-display: swap; font-style: normal; font-weight: 600; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2\"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2\"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/6mJuEAguuIuMog10gGvH5d3cl8.woff2\"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+1F00-1FFF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2\"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+370-3FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2\"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2\"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/DolVirEGb34pEXEp8t8FQBSK4.woff2\"); font-display: swap; font-style: normal; font-weight: 500; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+1F00-1FFF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+370-3FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+      "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+      "@font-face { font-family: \"Instrument Sans Placeholder\"; src: local(\"Arial\"); ascent-override: 93.97%; descent-override: 24.22%; line-gap-override: 0%; size-adjust: 103.22%; }",
+      "@font-face { font-family: \"Inter Placeholder\"; src: local(\"Arial\"); ascent-override: 89.79%; descent-override: 22.36%; line-gap-override: 0%; size-adjust: 107.89%; }"
+    ],
+    "keyframes": [
+      "@keyframes __framer-editorbar-spinner-spin { \n  100% { transform: rotate(360deg); }\n}"
+    ],
+    "patternEls": [
+      {
+        "tag": "DIV",
+        "name": null,
+        "width": 1440,
+        "height": 8938,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "repeating-linear-gradient(45deg, rgb(23, 23, 29), rgb(23, 23, 29) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "graphic",
+        "width": 12,
+        "height": 12,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 12 12%22><g id=%22ss10802045714_1%22><path d=%22M 0 0 L 12 0 L 12 12 L 0 12 Z%22 fill=%22transparent%22></path><path d=%22M 12 3.5 L 12.001 2 L 10 0 L 0.001 0 L 0.001 3.5 L 6.5 3.5 L 0 9.25 L 2.452 12 L 8.75 6.25 L 8.501 6.478 L 8.501 12 L 12.001 12 L 12.001 8.976 L 8.75 6.25 Z%22 fill=%22rgb(255,255,255)%22></path></g></svg>\")",
+        "bgSize": "100% 100%",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track animation",
+        "width": 240,
+        "height": 240,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "radial-gradient(25% 25% at 86.6109% 3.83002%, rgb(159, 117, 255) 0%, rgba(150, 53, 248, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": null,
+        "width": 238,
+        "height": 238,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "repeating-linear-gradient(45deg, rgb(23, 23, 29), rgb(23, 23, 29) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track animation",
+        "width": 240,
+        "height": 240,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "radial-gradient(25% 25% at 86.6109% 96.17%, rgb(34, 210, 237) 0%, rgba(138, 40, 253, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": null,
+        "width": 238,
+        "height": 238,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "repeating-linear-gradient(45deg, rgb(23, 23, 29), rgb(23, 23, 29) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track animation",
+        "width": 240,
+        "height": 240,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "radial-gradient(25% 25% at 13.3891% 3.83002%, rgb(233, 115, 187) 0%, rgba(150, 53, 248, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": null,
+        "width": 238,
+        "height": 238,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "repeating-linear-gradient(45deg, rgb(23, 23, 29), rgb(23, 23, 29) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Progress bar",
+        "width": 32,
+        "height": 4,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(269deg, rgb(159, 117, 255) 0%, rgb(233, 115, 187) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": null,
+        "width": 340,
+        "height": 202,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "repeating-linear-gradient(45deg, rgb(27, 27, 33), rgb(27, 27, 33) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Top light (inside)",
+        "width": 324,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(224, 226, 230) 49.6875%, rgba(36, 36, 42, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "Conic gradient",
+        "width": 386,
+        "height": 560,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "conic-gradient(from 316deg at 62.8% 24.1%, rgb(241, 242, 244) 61.2deg, rgb(255, 255, 255) 360deg)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "0.5",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": null,
+        "width": 340,
+        "height": 202,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "repeating-linear-gradient(45deg, rgb(224, 226, 230), rgb(224, 226, 230) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Bottom light white (inside)",
+        "width": 196,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(224, 226, 230) 49.6875%, rgba(36, 36, 42, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "Bottom light color (outside)",
+        "width": 260,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(134, 36, 255) 49.6875%, rgba(36, 36, 42, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "Bottom light white (outside)",
+        "width": 260,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(120, 8, 255) 49.6875%, rgba(36, 36, 42, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track",
+        "width": 32,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(90deg, rgba(134, 36, 255, 0) 0%, rgb(134, 36, 255) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "0",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track",
+        "width": 32,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(134, 36, 255, 0) 0%, rgb(134, 36, 255) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track",
+        "width": 32,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(90deg, rgba(134, 36, 255, 0) 0%, rgb(134, 36, 255) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "0",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track",
+        "width": 32,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(134, 36, 255, 0) 0%, rgb(134, 36, 255) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "0",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track",
+        "width": 32,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(90deg, rgba(134, 36, 255, 0) 0%, rgb(134, 36, 255) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Track",
+        "width": 32,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(134, 36, 255, 0) 0%, rgb(134, 36, 255) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "0",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": null,
+        "width": 70,
+        "height": 70,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "repeating-linear-gradient(45deg, rgb(36, 36, 42), rgb(36, 36, 42) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 4px)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Light top (outside)",
+        "width": 41,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(97, 100, 107) 49.6875%, rgba(36, 36, 42, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Light bottom (inside)",
+        "width": 16,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(148, 151, 158) 49.6875%, rgba(36, 36, 42, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Color light bottom 1",
+        "width": 45,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(134, 36, 255) 49.6875%, rgba(255, 255, 255, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "Color light bottom 2",
+        "width": 45,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(120, 8, 255) 49.6875%, rgba(255, 255, 255, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "Bottom light white (inside)",
+        "width": 611,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(36, 36, 42) 75%, rgba(255, 255, 255, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      },
+      {
+        "tag": "DIV",
+        "name": "Bottom light color (outside)",
+        "width": 611,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(159, 117, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "Bottom light color (outside)",
+        "width": 611,
+        "height": 1,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(159, 117, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%)",
+        "bgSize": "auto",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "1"
+      },
+      {
+        "tag": "DIV",
+        "name": "graphic",
+        "width": 12,
+        "height": 12,
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 12 12%22><g id=%22ss10802045714_1%22><path d=%22M 0 0 L 12 0 L 12 12 L 0 12 Z%22 fill=%22transparent%22></path><path d=%22M 12 3.5 L 12.001 2 L 10 0 L 0.001 0 L 0.001 3.5 L 6.5 3.5 L 0 9.25 L 2.452 12 L 8.75 6.25 L 8.501 6.478 L 8.501 12 L 12.001 12 L 12.001 8.976 L 8.75 6.25 Z%22 fill=%22rgb(255,255,255)%22></path></g></svg>\")",
+        "bgSize": "100% 100%",
+        "bgRepeat": "repeat",
+        "opacity": "1",
+        "position": "absolute",
+        "zIndex": "auto"
+      }
+    ],
+    "activeAnimationsCount": 2,
+    "anims": [
+      {
+        "id": "",
+        "timing": {
+          "delay": 300,
+          "direction": "normal",
+          "duration": 460,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 460,
+          "currentIteration": 0,
+          "endTime": 760,
+          "localTime": 3260.199999999814,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0.021739130434782608
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0.043478260869565216
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0.06521739130434782
+          }
+        ]
+      },
+      {
+        "id": "",
+        "timing": {
+          "delay": 500,
+          "direction": "normal",
+          "duration": 460,
+          "easing": "linear",
+          "endDelay": 0,
+          "fill": "both",
+          "iterationStart": 0,
+          "iterations": 1,
+          "activeDuration": 460,
+          "currentIteration": 0,
+          "endTime": 960,
+          "localTime": 1010.1999999998135,
+          "progress": 1
+        },
+        "keyframes": [
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0.021739130434782608
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0.043478260869565216
+          },
+          {
+            "offset": null,
+            "easing": "linear",
+            "composite": "auto",
+            "transform": "none",
+            "computedOffset": 0.06521739130434782
+          }
+        ]
+      }
+    ]
+  },
+  "homeGeometry": {
+    "headerRect": {
+      "x": 120,
+      "y": 0,
+      "width": 1200,
+      "height": 76,
+      "top": 0,
+      "right": 1320,
+      "bottom": 76,
+      "left": 120
+    },
+    "headerStyle": {
+      "position": "sticky",
+      "bg": "rgba(0, 0, 0, 0)",
+      "height": "76px"
+    },
+    "h1": {
+      "text": "Boost Your Productivity with TodoFusion",
+      "rect": {
+        "x": 400,
+        "y": 172,
+        "width": 640,
+        "height": 128,
+        "top": 172,
+        "right": 1040,
+        "bottom": 300,
+        "left": 400
+      },
+      "fontSize": "56px",
+      "fontWeight": "600",
+      "lineHeight": "64px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    "h2s": [
+      {
+        "text": "Versatile Solution For Your Everyday Needs 👌",
+        "x": 525,
+        "y": 880,
+        "w": 258,
+        "h": 101,
+        "fontSize": "28px",
+        "fontWeight": "600",
+        "lineHeight": "33.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(26, 26, 26)"
+      },
+      {
+        "text": "All you need to get sharp focus and crush it",
+        "x": 400,
+        "y": 1653,
+        "w": 640,
+        "h": 96,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Get to know your habits, Improve them everyday",
+        "x": 400,
+        "y": 3077,
+        "w": 640,
+        "h": 96,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Planned for the future",
+        "x": 400,
+        "y": 4157,
+        "w": 640,
+        "h": 48,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Simple pricing",
+        "x": 400,
+        "y": 4977,
+        "w": 640,
+        "h": 48,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "$4.9",
+        "x": 428,
+        "y": 5254,
+        "w": 74,
+        "h": 48,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "$99",
+        "x": 833,
+        "y": 5285,
+        "w": 68,
+        "h": 48,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(18, 18, 24)"
+      },
+      {
+        "text": "Seamless Integrations",
+        "x": 400,
+        "y": 6817,
+        "w": 640,
+        "h": 48,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(97, 100, 107)"
+      },
+      {
+        "text": "Frequently Asked Questions",
+        "x": 400,
+        "y": 7455,
+        "w": 640,
+        "h": 48,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Join our newsletter",
+        "x": 208,
+        "y": 8375,
+        "w": 480,
+        "h": 48,
+        "fontSize": "36px",
+        "fontWeight": "600",
+        "lineHeight": "48px",
+        "letterSpacing": "normal",
+        "color": "rgb(97, 100, 107)"
+      }
+    ],
+    "footerRect": {
+      "x": 0,
+      "y": 8152,
+      "width": 1440,
+      "height": 328,
+      "top": 8152,
+      "right": 1440,
+      "bottom": 8480,
+      "left": 0
+    },
+    "namedContainers": [
+      {
+        "name": "Navigation",
+        "w": 1200,
+        "h": 76,
+        "x": 120,
+        "y": 0,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Hero section",
+        "w": 1440,
+        "h": 1136,
+        "x": 0,
+        "y": 76,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 1200,
+        "h": 1136,
+        "x": 120,
+        "y": 76,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 640,
+        "h": 264,
+        "x": 400,
+        "y": 172,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 640,
+        "h": 192,
+        "x": 400,
+        "y": 172,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Heading",
+        "w": 640,
+        "h": 128,
+        "x": 400,
+        "y": 172,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Replace here or custom)",
+        "w": 1152,
+        "h": 600,
+        "x": 144,
+        "y": 516,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Blur purple",
+        "w": 576,
+        "h": 80,
+        "x": 304,
+        "y": 540,
+        "bg": "rgb(134, 36, 255)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "999px",
+        "shadow": "none"
+      },
+      {
+        "name": "Blur cyan",
+        "w": 576,
+        "h": 160,
+        "x": 560,
+        "y": 540,
+        "bg": "rgb(34, 210, 237)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "999px",
+        "shadow": "none"
+      },
+      {
+        "name": "Blur pink",
+        "w": 576,
+        "h": 80,
+        "x": 560,
+        "y": 1012,
+        "bg": "rgb(233, 115, 187)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "999px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Replace here)",
+        "w": 1104,
+        "h": 552,
+        "x": 168,
+        "y": 540,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgba(255, 255, 255, 0.1) 0px 0px 0px 1px, rgba(134, 36, 255, 0) 0px 16px 24px -6px, rgba(134, 36, 255, 0) 0px 24px 48px -4px"
+      },
+      {
+        "name": "Container (Can be deleted)",
+        "w": 1104,
+        "h": 552,
+        "x": 168,
+        "y": 540,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Framer",
+        "w": 816,
+        "h": 488,
+        "x": 440,
+        "y": 588,
+        "bg": "rgb(9, 9, 15)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(18, 18, 24, 0.2) 0px 0px 6px 0px"
+      },
+      {
+        "name": "Screen (replace here)",
+        "w": 816,
+        "h": 476,
+        "x": 440,
+        "y": 622,
+        "bg": "rgb(18, 18, 24)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Landing page",
+        "w": 694,
+        "h": 411,
+        "x": 501,
+        "y": 761,
+        "bg": "rgb(255, 255, 255)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 645,
+        "h": 299,
+        "x": 525,
+        "y": 833,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Leading content",
+        "w": 258,
+        "h": 281,
+        "x": 525,
+        "y": 842,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 258,
+        "h": 211,
+        "x": 525,
+        "y": 842,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Banner image",
+        "w": 323,
+        "h": 299,
+        "x": 848,
+        "y": 833,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Logo cloud",
+        "w": 1440,
+        "h": 282,
+        "x": 0,
+        "y": 1212,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 1200,
+        "h": 282,
+        "x": 120,
+        "y": 1212,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Feature section 1",
+        "w": 1440,
+        "h": 1424,
+        "x": 0,
+        "y": 1494,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 1200,
+        "h": 1424,
+        "x": 120,
+        "y": 1494,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 640,
+        "h": 160,
+        "x": 400,
+        "y": 1590,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Heading",
+        "w": 640,
+        "h": 96,
+        "x": 400,
+        "y": 1653,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 1152,
+        "h": 1008,
+        "x": 144,
+        "y": 1814,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 320,
+        "x": 144,
+        "y": 1814,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Header",
+        "w": 320,
+        "h": 80,
+        "x": 168,
+        "y": 1838,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 168,
+        "x": 168,
+        "y": 1942,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 320,
+        "x": 536,
+        "y": 1814,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 190,
+        "x": 560,
+        "y": 1920,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Can be deleted)",
+        "w": 320,
+        "h": 190,
+        "x": 560,
+        "y": 1920,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 272,
+        "h": 68,
+        "x": 584,
+        "y": 2003,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 664,
+        "x": 928,
+        "y": 1814,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(34, 210, 237, 0.1) 0px -1px 0px 0px inset, rgba(34, 210, 237, 0.1) 0px 8px 16px -4px, rgba(18, 18, 24, 0.05) 0px 20px 28px -6px"
+      },
+      {
+        "name": "Header",
+        "w": 320,
+        "h": 80,
+        "x": 952,
+        "y": 1838,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 512,
+        "x": 952,
+        "y": 1942,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 320,
+        "x": 144,
+        "y": 2158,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Header",
+        "w": 320,
+        "h": 80,
+        "x": 168,
+        "y": 2182,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 168,
+        "x": 168,
+        "y": 2286,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 320,
+        "x": 536,
+        "y": 2158,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(233, 115, 187, 0.1) 0px -1px 0px 0px inset, rgba(233, 115, 187, 0.1) 0px 8px 16px -4px, rgba(18, 18, 24, 0.05) 0px 20px 28px -6px"
+      },
+      {
+        "name": "Header",
+        "w": 320,
+        "h": 80,
+        "x": 560,
+        "y": 2182,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 168,
+        "x": 560,
+        "y": 2286,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image",
+        "w": 320,
+        "h": 168,
+        "x": 560,
+        "y": 2286,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content (Can be deleted)",
+        "w": 272,
+        "h": 120,
+        "x": 584,
+        "y": 2398,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 320,
+        "x": 144,
+        "y": 2502,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(159, 117, 255, 0.1) 0px -1px 0px 0px inset, rgba(159, 117, 255, 0.1) 0px 8px 16px -4px, rgba(18, 18, 24, 0.05) 0px 20px 28px -6px"
+      },
+      {
+        "name": "Header",
+        "w": 320,
+        "h": 102,
+        "x": 168,
+        "y": 2526,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Description",
+        "w": 320,
+        "h": 66,
+        "x": 168,
+        "y": 2562,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 146,
+        "x": 168,
+        "y": 2652,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Can be deleted)",
+        "w": 320,
+        "h": 146,
+        "x": 168,
+        "y": 2652,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 272,
+        "h": 200,
+        "x": 192,
+        "y": 2764,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -2px, rgba(0, 0, 0, 0.1) 0px 4px 8px -2px, rgb(9, 9, 15) 0px 1px 0px 0px"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 320,
+        "x": 536,
+        "y": 2502,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Header",
+        "w": 320,
+        "h": 80,
+        "x": 560,
+        "y": 2526,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 168,
+        "x": 560,
+        "y": 2630,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Can be deleted)",
+        "w": 320,
+        "h": 168,
+        "x": 560,
+        "y": 2630,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "none"
+      },
+      {
+        "name": "Form",
+        "w": 272,
+        "h": 92,
+        "x": 584,
+        "y": 2686,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 368,
+        "h": 320,
+        "x": 928,
+        "y": 2502,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 320,
+        "h": 190,
+        "x": 952,
+        "y": 2608,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Can be deleted)",
+        "w": 320,
+        "h": 67,
+        "x": 952,
+        "y": 2722,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "4px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -2px, rgba(0, 0, 0, 0.1) 0px 4px 8px -2px, rgb(9, 9, 15) 0px 1px 0px 0px"
+      },
+      {
+        "name": "Feature section 2",
+        "w": 1440,
+        "h": 1080,
+        "x": 0,
+        "y": 2918,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 1200,
+        "h": 1080,
+        "x": 120,
+        "y": 2918,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 640,
+        "h": 160,
+        "x": 400,
+        "y": 3014,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Heading",
+        "w": 640,
+        "h": 96,
+        "x": 400,
+        "y": 3077,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 1152,
+        "h": 664,
+        "x": 144,
+        "y": 3238,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 564,
+        "h": 664,
+        "x": 144,
+        "y": 3238,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 516,
+        "h": 534,
+        "x": 168,
+        "y": 3344,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Can be deleted)",
+        "w": 452,
+        "h": 188,
+        "x": 200,
+        "y": 3637,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -2px, rgba(0, 0, 0, 0.1) 0px 4px 8px -2px, rgb(9, 9, 15) 0px 1px 0px 0px"
+      },
+      {
+        "name": "Card",
+        "w": 564,
+        "h": 320,
+        "x": 732,
+        "y": 3238,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 516,
+        "h": 190,
+        "x": 756,
+        "y": 3344,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "none"
+      },
+      {
+        "name": "Card",
+        "w": 564,
+        "h": 320,
+        "x": 732,
+        "y": 3582,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Image (replace here or custom)",
+        "w": 516,
+        "h": 190,
+        "x": 756,
+        "y": 3688,
+        "bg": "rgb(23, 23, 29)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "none"
+      },
+      {
+        "name": "Image (Can be deleted)",
+        "w": 468,
+        "h": 242,
+        "x": 780,
+        "y": 3760,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -2px, rgba(0, 0, 0, 0.1) 0px 4px 8px -2px, rgb(9, 9, 15) 0px 1px 0px 0px"
+      },
+      {
+        "name": "Content",
+        "w": 436,
+        "h": 136,
+        "x": 796,
+        "y": 3850,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Feature section 3",
+        "w": 1440,
+        "h": 820,
+        "x": 0,
+        "y": 3998,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 1200,
+        "h": 820,
+        "x": 120,
+        "y": 3998,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 640,
+        "h": 112,
+        "x": 400,
+        "y": 4094,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 1152,
+        "h": 452,
+        "x": 144,
+        "y": 4270,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 352,
+        "h": 202,
+        "x": 144,
+        "y": 4270,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 352,
+        "h": 102,
+        "x": 144,
+        "y": 4346,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Description",
+        "w": 352,
+        "h": 66,
+        "x": 144,
+        "y": 4382,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 352,
+        "h": 202,
+        "x": 544,
+        "y": 4270,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 352,
+        "h": 102,
+        "x": 544,
+        "y": 4346,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Description",
+        "w": 352,
+        "h": 66,
+        "x": 544,
+        "y": 4382,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 352,
+        "h": 202,
+        "x": 944,
+        "y": 4270,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 352,
+        "h": 102,
+        "x": 944,
+        "y": 4346,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Description",
+        "w": 352,
+        "h": 66,
+        "x": 944,
+        "y": 4382,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 352,
+        "h": 202,
+        "x": 144,
+        "y": 4520,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 352,
+        "h": 102,
+        "x": 144,
+        "y": 4596,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Description",
+        "w": 352,
+        "h": 66,
+        "x": 144,
+        "y": 4632,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 352,
+        "h": 202,
+        "x": 544,
+        "y": 4520,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 352,
+        "h": 102,
+        "x": 544,
+        "y": 4596,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Description",
+        "w": 352,
+        "h": 66,
+        "x": 544,
+        "y": 4632,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 352,
+        "h": 202,
+        "x": 944,
+        "y": 4520,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 352,
+        "h": 102,
+        "x": 944,
+        "y": 4596,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Description",
+        "w": 352,
+        "h": 66,
+        "x": 944,
+        "y": 4632,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Pricing section",
+        "w": 1440,
+        "h": 906,
+        "x": 0,
+        "y": 4818,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 1200,
+        "h": 906,
+        "x": 120,
+        "y": 4818,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 640,
+        "h": 88,
+        "x": 400,
+        "y": 4914,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 800,
+        "h": 562,
+        "x": 320,
+        "y": 5066,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 388,
+        "h": 562,
+        "x": 320,
+        "y": 5098,
+        "bg": "rgb(27, 27, 33)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgb(9, 9, 15) 0px -1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px 8px 16px -4px, rgba(0, 0, 0, 0.1) 0px 20px 20px -6px"
+      },
+      {
+        "name": "Header",
+        "w": 340,
+        "h": 76,
+        "x": 344,
+        "y": 5122,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 340,
+        "h": 76,
+        "x": 344,
+        "y": 5122,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 340,
+        "h": 202,
+        "x": 344,
+        "y": 5230,
+        "bg": "rgb(18, 18, 24)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "rgb(36, 36, 42) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -2px inset, rgba(0, 0, 0, 0.1) 0px 4px 8px -2px inset, rgb(9, 9, 15) 0px 1px 0px 0px inset"
+      },
+      {
+        "name": "Features",
+        "w": 340,
+        "h": 164,
+        "x": 344,
+        "y": 5464,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "List",
+        "w": 340,
+        "h": 124,
+        "x": 344,
+        "y": 5504,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 388,
+        "h": 562,
+        "x": 732,
+        "y": 5129,
+        "bg": "rgb(241, 242, 244)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(255, 255, 255) 0px -1px 0px 0px, rgba(159, 117, 255, 0.1) 0px -1px 0px 0px inset, rgba(134, 36, 255, 0.3) 0px 8px 16px -4px, rgba(134, 36, 255, 0.4) 0px 20px 28px -6px"
+      },
+      {
+        "name": "Conic gradient",
+        "w": 386,
+        "h": 560,
+        "x": 733,
+        "y": 5130,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "15px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 340,
+        "h": 76,
+        "x": 756,
+        "y": 5153,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 340,
+        "h": 202,
+        "x": 756,
+        "y": 5261,
+        "bg": "rgb(241, 242, 244)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "8px",
+        "shadow": "rgb(255, 255, 255) 0px 1px 0px 0px, rgba(18, 18, 24, 0.05) 0px 2px 4px -2px inset, rgba(18, 18, 24, 0.1) 0px 4px 8px -2px inset"
+      },
+      {
+        "name": "Features",
+        "w": 340,
+        "h": 164,
+        "x": 756,
+        "y": 5495,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "List",
+        "w": 340,
+        "h": 124,
+        "x": 756,
+        "y": 5535,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Sections/Testimonials",
+        "w": 1440,
+        "h": 934,
+        "x": 0,
+        "y": 5724,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Container",
+        "w": 1200,
+        "h": 934,
+        "x": 120,
+        "y": 5724,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Header",
+        "w": 640,
+        "h": 96,
+        "x": 400,
+        "y": 5820,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Heading",
+        "w": 640,
+        "h": 96,
+        "x": 400,
+        "y": 5883,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Content",
+        "w": 1152,
+        "h": 582,
+        "x": 144,
+        "y": 5980,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Featured",
+        "w": 368,
+        "h": 380,
+        "x": 144,
+        "y": 6012,
+        "bg": "rgb(18, 18, 24)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(0, 0, 0, 0.2) 0px 4px 8px -4px, rgba(0, 0, 0, 0.1) 0px 12px 18px -2px, rgb(9, 9, 15) 0px 1px 0px 0px"
+      },
+      {
+        "name": "Content",
+        "w": 320,
+        "h": 130,
+        "x": 168,
+        "y": 6238,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Review",
+        "w": 320,
+        "h": 66,
+        "x": 168,
+        "y": 6238,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      },
+      {
+        "name": "Default",
+        "w": 368,
+        "h": 178,
+        "x": 536,
+        "y": 6012,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "16px",
+        "shadow": "rgb(36, 36, 42) 0px -1px 0px 0px, rgba(0, 0, 0, 0.2) 0px 4px 8px -4px, rgba(0, 0, 0, 0.1) 0px 12px 18px -2px, rgb(9, 9, 15) 0px 1px 0px 0px"
+      },
+      {
+        "name": "Content",
+        "w": 320,
+        "h": 130,
+        "x": 560,
+        "y": 6036,
+        "bg": "rgba(0, 0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "radius": "0px",
+        "shadow": "none"
+      }
+    ]
+  },
+  "themeSwitchResult": {
+    "toggleCoords": [
+      {
+        "x": 1102.706298828125,
+        "y": 50,
+        "parentHtml": "<div style=\"cursor: pointer; border-radius: 50%; position: absolute; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;\"><svg width=\"100%\" height=\"100%\" viewBox=\"0"
+      }
+    ],
+    "afterClick": {
+      "bodyBg": "rgb(247, 247, 248)",
+      "bodyColor": "rgb(0, 0, 0)",
+      "h1Color": "rgb(18, 18, 24)",
+      "localStorage": {
+        "currentToggleState": "dark"
+      },
+      "htmlClass": "dark",
+      "htmlAttrs": [
+        [
+          "data-theme",
+          "dark"
+        ],
+        [
+          "class",
+          "dark"
+        ]
+      ]
+    }
+  },
+  "productDemoTests": {
+    "checklistChanged": false,
+    "intervalsText": "Intervals\n\nWork sprint\n\n60\n\nmin\n\nBreak\n\n15\n\nmin"
+  },
+  "docsAndUiKit": {
+    "docsSearchModalVisible": [],
+    "docsSearchResults": "Todo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nDocumentation\nWelcome to TodoFusion Docs\n\nWelcome to the TodoFusion Overview. In this section, you'll get a high-level understanding of TodoFusion's key features and how it can help you manage tasks and projects more efficiently.\n\nGetting Started\nIntegrations\nCollaboration\nAdvanced features\nWhat is TodoFusion?\n\nTodoFusion is a powerful task management and project collaboration platform designed to simplify your workflow. Whether you're an individual managing personal tasks or part of a team working on complex projects, TodoFusion is here to streamline your work.\n\nTask Management\n\nCreate tasks with due dates and descriptions.\n\nOrganize tasks into projects.\n\nPrioritize tasks based on urgency and importance.\n\nTeam Collaboration\n\nInvite team members to collaborate on tasks and projects.\n\nAssign tasks to team members.\n\nLeave comments and have discussions within tasks.\n\n© Copyright 2024. All rights reserved.\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.",
+    "uikitAnchors": [
+      {
+        "id": "main",
+        "text": ":root body { background: var(--token-43a4e80e-77fe-43cd-af35-5b873236cc9d, rgb(2"
+      },
+      {
+        "id": "mtyIBR5UQ-546qib",
+        "text": "Resources"
+      },
+      {
+        "id": "navigation-scroll",
+        "text": ""
+      },
+      {
+        "id": "page-header",
+        "text": "Made in FramerTodoFusion UI Kit Design with PrecisionUnlock a full suite of UI e"
+      },
+      {
+        "id": "preview-sections",
+        "text": "Flexible modules and customizable elements.Explore over 80+ sections and compone"
+      },
+      {
+        "id": "button",
+        "text": "Button16 ElementsRemix TemplateRemix TemplateRemix TemplateRemix TemplateRemix T"
+      },
+      {
+        "id": "card",
+        "text": "Card15 ElementsDavid Johnson20247min readFostering Team Creativity and Productiv"
+      },
+      {
+        "id": "card-header",
+        "text": "Card15 Elements"
+      },
+      {
+        "id": "accordion",
+        "text": "Accordion2 ElementsWhat is TodoFusion?What is TodoFusion?TodoFusion is a Framer "
+      },
+      {
+        "id": "feature-icon",
+        "text": "Feature icon3 Elements"
+      },
+      {
+        "id": "navigatoin",
+        "text": "Navigation2 ElementsHomeResourcesPricingDocsUI KitRemix TemplateTodoFusionDocsSe"
+      },
+      {
+        "id": "mtyIBR5UQ-546qib",
+        "text": "Resources"
+      },
+      {
+        "id": "badge",
+        "text": "Badge8 ElementsCategoryCategoryCategoryCategoryCategoryCategoryCategoryCategory"
+      },
+      {
+        "id": "logo",
+        "text": "Logo4 ElementsTodoFusionTodoFusion"
+      },
+      {
+        "id": "filter",
+        "text": "Filter1 ElementsSearch somethingFilter by:AllCompanyGet StartedServicesHow does "
+      },
+      {
+        "id": "hero",
+        "text": "Hero2 ElementsBoost Your Productivity with TodoFusionTransform task management w"
+      },
+      {
+        "id": "hero-section",
+        "text": "Boost Your Productivity with TodoFusionTransform task management with TodoFusion"
+      },
+      {
+        "id": "hero-section-1",
+        "text": "Unleashing Productivity FeaturesMaximize efficiency with seamless task managemen"
+      },
+      {
+        "id": "features",
+        "text": "Features4 ElementsPlanned for the futureExciting new features, enhanced integrat"
+      },
+      {
+        "id": "feature-section-1",
+        "text": "Planned for the futureExciting new features, enhanced integrations, and continuo"
+      },
+      {
+        "id": "feature-section-2",
+        "text": "All you need to get sharp focus and crush itTransform task management with TodoF"
+      },
+      {
+        "id": "feature-section-3",
+        "text": "Get to know your habits, Improve them everydayTrack your habits consistently, id"
+      },
+      {
+        "id": "feature-section-4",
+        "text": "Planned for the futureExciting new features, enhanced integrations, and continuo"
+      },
+      {
+        "id": "pricing",
+        "text": "Pricing1 ElementsSimple pricingChoose the plan that fits your needs and boost yo"
+      },
+      {
+        "id": "pricing-1",
+        "text": "Simple pricingChoose the plan that fits your needs and boost your productivity w"
+      },
+      {
+        "id": "tab",
+        "text": "Tab2 Elements\"TodoFusion streamlined our workflows and doubled our productivity "
+      },
+      {
+        "id": "testimonials",
+        "text": "Testimonials1 ElementsPeople just like you are already using TodoFusion to stay "
+      },
+      {
+        "id": "faqs",
+        "text": "Faqs1 ElementsFrequently Asked QuestionsSeamlessly use your preferred tools for "
+      },
+      {
+        "id": "newsletter",
+        "text": "Newsletter2 ElementsJoin our newsletterJoin our newsletter for exclusive insight"
+      },
+      {
+        "id": "logo-cloud",
+        "text": "Logo cloud1 ElementsTrusted by 800K+ freelancers and 20k+ teams like"
+      },
+      {
+        "id": "integrations",
+        "text": "Integrations2 Elements\n                @keyframes flowAnimation {\n              "
+      },
+      {
+        "id": "integrations-1",
+        "text": "Seamless IntegrationsConnect TodoFusion with your favorite tools like Notion and"
+      },
+      {
+        "id": "footer",
+        "text": "Footer1 ElementsTodoFusionSimplify tasks, boost productivity, and manage project"
+      },
+      {
+        "id": "blog",
+        "text": "Blog2 ElementsOUR BLOGOur latest articlesGain confidence in your decisions with "
+      },
+      {
+        "id": "contact",
+        "text": "Contact2 ElementsCONTACT USGet in touch with us today!Contact our sales and supp"
+      },
+      {
+        "id": "team",
+        "text": "Team1 ElementsMeet our TeamDiscover the creative and dedicated individuals drivi"
+      },
+      {
+        "id": "code-comp",
+        "text": "Code comp5 Elements\n                @keyframes expand-contract {\n               "
+      },
+      {
+        "id": "overlay",
+        "text": ""
+      },
+      {
+        "id": "template-overlay",
+        "text": ""
+      },
+      {
+        "id": "__framer-badge-container",
+        "text": "Create a free website with Framer, the website builder loved by startups, design"
+      },
+      {
+        "id": "__framer__appearAnimationsContent",
+        "text": "{\"b1c9x7\":{\"default\":{\"initial\":{\"opacity\":0.001,\"rotate\":0,\"rotateX\":0,\"rotateY"
+      },
+      {
+        "id": "__framer__breakpoints",
+        "text": "[{\"hash\":\"12fv13j\",\"mediaQuery\":\"(min-width: 1200px)\"},{\"hash\":\"upbcfl\",\"mediaQu"
+      },
+      {
+        "id": "svg-templates",
+        "text": ""
+      },
+      {
+        "id": "svg11814263279",
+        "text": ""
+      },
+      {
+        "id": "ss11814263279_1",
+        "text": ""
+      },
+      {
+        "id": "svg12469150226",
+        "text": ""
+      },
+      {
+        "id": "ss12469150226_1",
+        "text": ""
+      },
+      {
+        "id": "svg8672300270",
+        "text": ""
+      },
+      {
+        "id": "svg9350368685",
+        "text": ""
+      },
+      {
+        "id": "svg12572009364",
+        "text": ""
+      },
+      {
+        "id": "svg11479837303",
+        "text": ""
+      },
+      {
+        "id": "svg11167430294",
+        "text": ""
+      },
+      {
+        "id": "svg8971648725",
+        "text": ""
+      },
+      {
+        "id": "svg12016132567",
+        "text": ""
+      },
+      {
+        "id": "svg10071269413",
+        "text": ""
+      },
+      {
+        "id": "svg9963664185",
+        "text": ""
+      },
+      {
+        "id": "svg12231845849",
+        "text": ""
+      },
+      {
+        "id": "svg11348694564",
+        "text": ""
+      },
+      {
+        "id": "svg9669559261",
+        "text": ""
+      },
+      {
+        "id": "svg9725647616",
+        "text": ""
+      },
+      {
+        "id": "svg8993884122",
+        "text": ""
+      },
+      {
+        "id": "svg11065604910",
+        "text": ""
+      },
+      {
+        "id": "svg10475959701",
+        "text": ""
+      },
+      {
+        "id": "svg11960087459",
+        "text": ""
+      },
+      {
+        "id": "svg10143046552",
+        "text": ""
+      },
+      {
+        "id": "svg11727611300",
+        "text": ""
+      },
+      {
+        "id": "svg12311052691",
+        "text": ""
+      },
+      {
+        "id": "svg9077334580",
+        "text": ""
+      },
+      {
+        "id": "svg10530614674",
+        "text": ""
+      },
+      {
+        "id": "svg9815372188",
+        "text": ""
+      },
+      {
+        "id": "svg11093492226",
+        "text": ""
+      },
+      {
+        "id": "svg12819568001",
+        "text": ""
+      },
+      {
+        "id": "svg10554548195",
+        "text": ""
+      },
+      {
+        "id": "svg12205635828",
+        "text": ""
+      },
+      {
+        "id": "idss12205635828_6g-1437088470",
+        "text": ""
+      },
+      {
+        "id": "svg8922378077",
+        "text": ""
+      },
+      {
+        "id": "svg11570444657",
+        "text": ""
+      },
+      {
+        "id": "svg12612485002",
+        "text": ""
+      },
+      {
+        "id": "svg11537108920",
+        "text": ""
+      },
+      {
+        "id": "svg8783786276",
+        "text": ""
+      }
+    ],
+    "uikitText": "Home\nResources\nPricing\nDocs\nUI Kit\nRemix Template\n\nMade in Framer\n\nTodoFusion UI Kit Design with Precision\n\nUnlock a full suite of UI elements designed to enhance productivity and streamline your project's design process effectively.\n\nRemix Template\nPreview sections\nFlexible modules and customizable elements.\n\nExplore over 80+ sections and components in both Dark and Light modes from the comprehensive kit to find your ideal piece.\n\nButton\nCard\nAccordion\nFeature icon\nNavigation\nBadge\nLogo\nFilter\nHero\nFeatures\nPricing\nTab\nTestimonials\nFAQs\nNewsletter\nLogo cloud\nIntegrations\nFooter\nBlog\nContact\nTeam\nCode comp\nButton\n16 Elements\nRemix Template\nRemix Template\nRemix Template\nRemix Template\nRemix Template\nRemix Template\nRemix Template\nRemix Template\nRemix Template\nRemix Template\nDocumentation\nPrevious\nSubmit\n\nSubscribe\n\nSearch docs\nCard\n15 Elements\nDavid Johnson\n2024\n7\nmin read\nFostering Team Creativity and Productivity\n\nFlexible and affordable. Boost your productivity month by month.\n\nRead more\nDate\n7\nmin read\nHow Todofusion's Gantt Charts Enhance Your Workflow\n\nProjects, whether big or small, require meticulous planning and management. Traditional project management tools can be overwhelming.\n\nSales\n\nSpeak to our sales team about plans, pricing, enterprise contracts, or request a demo.\n\nTalk to sales\nGetting Started\n\nTodoFusion has revolutionized my productivity at Tech Innovators. I get more done in less time!\n\nDavid Johnsson\nFounder\nDrag & Drop pages\nCustomize your sitemap layout with intuitive drag-and-drop functionality for seamless editing.\n\nUsed by\n\n11,000+\n\nCreators\n\nTime tracking\n\nEstimate how long you might take for a task, track done time and overtime.\n\nWeb design\n\n+00:00:09\n\nEst: 1hr 30min\n\nDone: 2hr 32min\n\nKeyboard shortcuts\n\nStreamline your workflow with customizable keyboard shortcuts.\n\nCommitment\n\nOur team’s commitment is demonstrated through dedication and mutual support, ensuring everyone has the opportunity to succeed.\n\nTitle\n\nStreamline your workflow with customizable keyboard shortcuts. Navigate and manage tasks faster, boosting your productivity.\n\nI am committed to revolutionizing the way you manage tasks. Our platform is designed to seamlessly integrate with your daily workflow, enhancing productivity and collaboration. At TodoFusion, we are dedicated to providing you with innovative solutions that empower you to achieve more every day. Thank you for choosing us to be part of your productivity journey.\n\nDavid Miller\n\nCEO, Founder\n\nDavid Johnson\n\nFouder\n\nMonthly plan\n\nFlexible and affordable. Boost your productivity month by month.\n\n$4.9\nmonthly\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\nFull access to all features\nRegular updates and new features\nPremium support\nNo recurring fees\nPay once lifetime\n\nOne-time payment. Unlimited access forever. Ultimate productivity investment.\n\n$99\none-time payment\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\nFull access to all features\nRegular updates and new features\nPremium support\nNo recurring fees\nAccordion\n2 Elements\nWhat is TodoFusion?\nWhat is TodoFusion?\n\nTodoFusion is a Framer template designed to enhance task management with integrated tools for productivity and efficient workflow.\n\nFeature icon\n3 Elements\nNavigation\n2 Elements\nHome\nResources\nPricing\nDocs\nUI Kit\nRemix Template\nTodo\nFusion\nDocs\nSearch docs\nGetting Started\nAccount\nDashboard\nManaging Tasks\nIntegrations\nTodo Integrations\nSet Up Integrations\nThird-party Platforms\nCollabration\nInviting Team Members\nTasks and Deadlines\nDiscussions\nAdvanced features\nTask Automation\nReporting\nCustomizing Todo\nBadge\n8 Elements\nCategory\nCategory\nCategory\nCategory\nCategory\nCategory\nCategory\nCategory\nLogo\n4 Elements\nTodo\nFusion\nTodo\nFusion\nFilter\n1 Elements\nSearch something\nFilter by:\nAll\nCompany\nGet Started\nServices\nHow does your company ensure customer data privacy?\nWhat are your company’s core values?\nWhere is your company located?\nWhat is the history of your company?\nHero\n2 Elements\nBoost Your Productivity with TodoFusion\n\nTransform task management with TodoFusion. Combine powerful to-do lists, productivity tracking, and seamless integrations to stay focused and achieve more\n\nGet Started\nSee how it works\n\nAll\n\nToday\n\nEst 5hrs 30min\n\n2/9 done\n\nWeb design\n\n03:59:57\n\nPause\n\nFigma design\n\n1hr 30min\n\n00:00\n\nReport\n\n2hr 30min\n\n30:00\n\nAdd task\n\n2 Done\n\n4hr\n\nDefine priorities\n\n3hr\n\nLocalize all content\n\n1hr\n\nCodify - Framer Tem…\n\nInsert\n\nLayout\n\nText\n\nCMS\n\nActions\n\nInvite\n\nPublish\n\nDesktop\n\n1440\n\nBreakpoint\n\nCustomize everything\n\nVersatile Solution For Your Everyday Needs 👌\n\nEnthusiastically empower client-centric materials for an expanded array of potentialities.\n\nDownload App\n\nGet Started\n\nGet App\n\nSign in\n\nWorks\n\nBlog\n\nFeatures\n\nPricing\n\nShop\n\nFinova\n\nTodoFusion\n\nFile\n\nEdit\n\nView\n\nWindow\n\nHelp\n\nMon Jun 5  9:41 AM\n\nUnleashing Productivity Features\n\nMaximize efficiency with seamless task management, real-time collaboration, and robust integration capabilities.\n\nGet Started\nSee how it works\nOver 800K+ users love TodoFusion\n\nAll\n\nToday\n\nEst 5hrs 30min\n\n2/9 done\n\nWeb design\n\n03:59:57\n\nPause\n\nFigma design\n\n1hr 30min\n\n00:00\n\nReport\n\n2hr 30min\n\n30:00\n\nAdd task\n\n2 Done\n\n4hr\n\nDefine priorities\n\n3hr\n\nLocalize all content\n\n1hr\n\nTodoFusion\n\nFile\n\nEdit\n\nView\n\nWindow\n\nHelp\n\nMon Jun 5  9:41 AM\n\nFeatures\n4 Elements\nPlanned for the future\n\nExciting new features, enhanced integrations, and continuous improvements to keep you ahead in your productivity journey.\n\nGamified productivity\nEnjoy the power of simplicity and bird-eye view perspective\nMobile app\nEnjoy the power of simplicity and bird-eye view perspective\nBreak time\nEnjoy the power of simplicity and bird-eye view perspective\nAI Task creation\nEnjoy the power of simplicity and bird-eye view perspective\nEisenhower matrix\nEnjoy the power of simplicity and bird-eye view perspective\nLive collaboration\nEnjoy the power of simplicity and bird-eye view perspective\nAll you need to get sharp focus and crush it\n\nTransform task management with TodoFusion. Combine powerful to-do lists, productivity tracking, and seamless integrations to stay focused and achieve more\n\nTime tracking\n\nEstimate how long you might take for a task, track done time and overtime.\n\nWeb design\n\n+00:00:09\n\nEst: 1hr 30min\n\nDone: 2hr 32min\n\nFocused Intervals\n\nTechnique to work in fixed intervals & breaks.\n\nIntervals\n\nWork sprint\n\n60\n\nmin\n\nBreak\n\n15\n\nmin\n\nSchedule tasks\n\nSchedule one-time or recurring tasks exactly when you want.\n\nToday\n\nLater today\n\nTomorrow\n\nNext week\n\nJanuary 2024\n\nSu\n\nMo\n\nTu\n\nWe\n\nTh\n\nFr\n\nSa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\n15\n\n16\n\n17\n\n18\n\n19\n\n20\n\n21\n\n22\n\n23\n\n24\n\n25\n\n26\n\n27\n\n28\n\n29\n\n30\n\n31\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCancel\n\nNext\n\nPick date\n\nJanuary 2024\n\nAdd time\n\nCancel\n\n09\n\n30\n\nAM\n\nRecurring schedule\n\nNo repeat\n\nEvery day\n\nEvery weekday\n\nEvery thursday\n\nEvery month on 19th\n\nCancel\n\nCancel\n\nChecklist joy\n\nExperience the joy of completing tasks with our satisfying checklists. Try it out below!\n\nWeb design\n\nDesign system\n\nFramer web development\n\nTask hub\n\nOrganize and centralize your tasks into distinct lists for various purposes.\n\nW\n\nWeb design\n\nUpcoming\n\n1\n\nHero section\n\n2\n\nFeature section\n\nNotes\n\nAttatch notes to your tasks with links or any fleeting thought, auto open links when your task goes live.\n\nFramer web design\n\nCodify.framer.website\n\nElements\n\nColors\n\nGrid design system\n\nTypography\n\nShare list copy\n\nShare a copy of your list to anyone so they can use it in their account.\n\nShare this file\n\nCopy link\n\nSend via email\n\nShare your list\n\nAlerts\n\nGet instant reminders for upcoming tasks.\n\nTasks due now\n\nYou have 3 scheduled tasks due now\n\nFigma design\n\n1hr 30min\n\n00:00\n\nGet to know your habits, Improve them everyday\n\nTrack your habits consistently, identify patterns, and make small improvements daily to enhance your productivity and well-being\n\nMeasure time spent\n\nGet a deep understanding of where your time goes\n\nWork\n\n32hr 40min\n\n60%\n\nDesign\n\n12hr 24min\n\n14%\n\nDesign\n\n2hr 12m\n\n10%\n\nBreak\n\n8hr 40min\n\n16%\n\nFilter through lists\n\nMeasure your performance on different lists\n\nW\n\nP\n\nA\n\nAll lists\n\nApr 13, 2024 - May 13, 2024\n\nReview punctuality\n\nReflect on your ability to set realistic time estimates\n\nTasks\n\n34% early\n\n66% late\n\nP\n\nTask 01\n\nEarly\n\n15hr\n\nS\n\nTask 02\n\nLate\n\n9hr\n\nP\n\nTask 03\n\nLate\n\n9hr\n\nPlanned for the future\n\nExciting new features, enhanced integrations, and continuous improvements to keep you ahead in your productivity journey.\n\nKeyboard shortcuts\n\nStreamline your workflow with customizable keyboard shortcuts. Navigate and manage tasks faster, boosting your productivity.\n\nBreak time\n\nEnhance your focus with scheduled breaks. Stay productive by incorporating regular breaks to refresh your mind.\n\nAI task creation\n\nLeverage AI to automatically generate and organize tasks. Save time and improve efficiency with intelligent task management.\n\nIntegration\n\nSeamlessly connect with Notion, Google, and other tools. Integrate your favorite apps for a unified productivity experience.\n\nLive collaboration\n\nCollaborate in real-time with your team. Share tasks, track progress, and achieve goals together effortlessly.\n\nDark & Light mode\n\nSwitch between dark and light modes to suit your preference. Enjoy a comfortable viewing experience day or night.\n\nPricing\n1 Elements\nSimple pricing\n\nChoose the plan that fits your needs and boost your productivity with TodoFusion.\n\nMonthly plan\n\nFlexible and affordable. Boost your productivity month by month.\n\n$4.9\nmonthly\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\nFull access to all features\nRegular updates and new features\nPremium support\nNo recurring fees\nPay once lifetime\n\nOne-time payment. Unlimited access forever. Ultimate productivity investment.\n\n$99\none-time payment\nplus local taxes\nGet Started\nUnlimited lists & tasks\nPriority support\nFeatures\nFull access to all features\nRegular updates and new features\nPremium support\nNo recurring fees\nTab\n2 Elements\n\"TodoFusion streamlined our workflows and doubled our productivity within just three months!\"\nEmily Smith\n\nCEO, Codify\n\nIntroduction\nTitle\nConclusion\nWrap-up\nTestimonials\n1 Elements\nPeople just like you are already using TodoFusion to stay super focused, crush more tasks and save hours of their time\n\nJust submitted another brief to my writers! Picked up the lifetime deal ! Thanks for an awesome app\n\nDavid Johnson\nFounder\n\nI've got ADHD and autism and this is the only thing that really works for me, it has gorgeous UI, and I can't wait to see what comes next!\n\nSarah Johnson\nProject Manager\n\nI love the simplicity and power of TodoFusion at Global Solutions. It's perfect for both work and personal tasks.\n\nJenny Parker\nDesigner\n\nTodoFusion's user-friendly interface at Creative Designs makes task management a breeze. Highly recommended!\n\nMark Thompson\nCEO, Global Solutionss\n\nTodoFusion streamlined our workflows and doubled our productivity within just three months!\n\nEmily Smith\nCEO, Codify\n\nTodoFusion has revolutionized my productivity at Tech Innovators. I get more done in less time!\n\nEmily Smith\nCeo-Founder\n\nTodoFusion's features are top-notch at Achieve Success Inc. It's the best tool for keeping my team on target.\n\nJohn Deo\nFounder, Carter's Boutque\nFaqs\n1 Elements\nFrequently Asked Questions\n\nSeamlessly use your preferred tools for unified work, start to finish.\n\nWhat is TodoFusion?\nIntegration details?\nMain features?\nMobile availability?\nTask sharing possible?\nCustomer support options?\nNewsletter\n2 Elements\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nLogo cloud\n1 Elements\nTrusted by 800K+ freelancers and 20k+ teams like\nIntegrations\n2 Elements\n\nINTEGRATIONS\n\nOne platform, all your work\n\nConsolidate your tools and data with TodoFusion, providing your team with a unified space for focused productivity.\n\nSeamless Integrations\n\nConnect TodoFusion with your favorite tools like Notion and Google. Enjoy a unified workflow for enhanced productivity and efficiency.\n\nFooter\n1 Elements\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nBlog\n2 Elements\n\nOUR BLOG\n\nOur latest articles\n\nGain confidence in your decisions with Taskify, which delivers insightful information to guide you.\n\nDavid Johnson\nJul 12, 2024\n6\nmin read\nBalancing Aesthetics and Functionality in UI\n\nBeauty and usability converge in UI design, crafting delightful user experiences seamlessly.\n\nRead more\nAug 15, 2024\n7\nmin read\nWhere Aesthetics Meet Functionality\n\nCaptivating UI design harmonizes aesthetics with functionality, ensuring seamless user experiences.\n\nAug 2, 2024\n7\nmin read\nThe Symbiosis of Aesthetics and Functionality in UI\n\nUI design symbiotically blends aesthetics and functionality, shaping seamless user interactions.\n\nApr 8, 2022\n6\nmin read\nThe Role of Color Psychology in Design\n\nColor psychology enhances design, influencing emotions and user interactions positively.\n\nREGULAR ARTICLES\n\nLatest article and blog\nAug 15, 2024\n7\nmin read\nWhere Aesthetics Meet Functionality\n\nCaptivating UI design harmonizes aesthetics with functionality, ensuring seamless user experiences.\n\nAug 2, 2024\n7\nmin read\nThe Symbiosis of Aesthetics and Functionality in UI\n\nUI design symbiotically blends aesthetics and functionality, shaping seamless user interactions.\n\nApr 8, 2022\n6\nmin read\nThe Role of Color Psychology in Design\n\nColor psychology enhances design, influencing emotions and user interactions positively.\n\nMar 15, 2022\n6\nmin read\nWeb Design Essentials A Comprehensive Guide\n\nEssential principles for impactful web design, optimizing user experiences comprehensively.\n\nFeb 28, 2022\n7\nmin read\nCrafting an effective product design strategy\n\nStrategic approach to product design, ensuring innovation and user satisfaction.\n\nFeb 6, 2022\n7\nmin read\nNavigating the trends ui/ux in 2023\n\nExplore future UI/UX trends, shaping digital experiences for 2023 and beyond dynamically.\n\nContact\n2 Elements\n\nCONTACT US\n\nGet in touch with us today!\n\nContact our sales and support teams for demos, onboarding assistance, or any product inquiries.\n\nSales\n\nConnect with our sales team to talk about pricing, enterprise contracts.\n\nTalk to sales\nHelp & Support\n\nAsk product questions, report problems, or leave feedback.\n\nContact support\nJoin the community\n\nChat with us directly and become a part of the flexify community\n\nJoin community\nGeneral communication\n\nSubmit a ticket to our support team or email info@stylokit.com directly\n\ninfo@stylokit.com\nDocumentation\n\nGain deeper understanding of TodoFusion’s features, APIs, and SDKs\n\nTodoFusion Docs\nHelpcenter\n\nExplore our FAQs to find quick answers to your questions.\n\nGo to Helpcenter\nContact us\nGet in touch\n\nPlease feel free to send us any questions, feedback or suggestions you might have.\n\nRequest a demo\n\nLearn which plan is right for your team\n\nGet onboarding help\n\nHelpcenter\n\nLearn how to use the GraphQL API and TypeScript SDK to extend TodoFusion.\n\nGo to Helpcenter\nFull name\nWork email\nCompany size\n1-50\n50-100\n100-500\n500-1000\n1000-5000\n5000+\nHow can we help?\nSubmit\nTeam\n1 Elements\nMeet our Team\n\nDiscover the creative and dedicated individuals driving TodoFusion's mission forward.\n\nDavid Johnson\n\nCeo, Fouder\n\nSarah Smith\n\nProject Manager\n\nAmanda Daviss\n\nProduct manager\n\nOlena Kurcherenko\n\nMarketing Specialist\n\nEmily Brown\n\nDesigner\n\nChris Wilson\n\nCustomer Support\n\nMicheal Lee\n\nAnalyst\n\nAndrew Wilson\n\nSales representative\n\nCode comp\n5 Elements\nLoading\nJoin our newsletter\n\nJoin our newsletter for exclusive insights, announcements, and special offers delivered directly to your inbox.\n\nSubscribe\n\nTodo\nFusion\n\nSimplify tasks, boost productivity, and manage projects seamlessly.\n\nPages\nHome\nAbout\nPricing\nContact\nProducts\nFeatures\nIntegrations\nDocs\nResources\nBlog\nUI Kit\nHelpcenter\nPrivacy Policy\n\n© TodoFusion Template | Created by Stylokit - Powered by Framer\n\nCreate a free website with Framer, the website builder loved by startups, designers and agencies.\n\n                                                  "
+  }
+}
