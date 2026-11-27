@@ -1,7 +1,7 @@
 {
   "routesChecked": 44,
   "routesAll200": true,
-  "brokenImagesTotal": 4,
+  "brokenImagesTotal": 22,
   "desktopOverflowCount": 0,
   "status404": 404,
   "themes": {
@@ -20,17 +20,17 @@
   },
   "mobile320Overflow": {
     "/": false,
-    "/features": true,
+    "/features": false,
     "/pricing": false,
     "/integrations": false,
     "/about": false,
     "/blog": false,
     "/docs": false,
-    "/uikit": true
+    "/uikit": false
   },
   "a11yResults": {
     "/": {
-      "violations": 3,
+      "violations": 2,
       "details": [
         {
           "id": "aria-prohibited-attr",
@@ -39,50 +39,24 @@
         },
         {
           "id": "color-contrast",
-          "impact": "serious",
-          "nodes": 31
-        },
-        {
-          "id": "label-content-name-mismatch",
           "impact": "serious",
           "nodes": 2
         }
       ]
     },
     "/features": {
-      "violations": 4,
+      "violations": 1,
       "details": [
         {
           "id": "aria-prohibited-attr",
-          "impact": "serious",
-          "nodes": 1
-        },
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "nodes": 23
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "nodes": 1
-        },
-        {
-          "id": "label-content-name-mismatch",
           "impact": "serious",
           "nodes": 1
         }
       ]
     },
     "/pricing": {
-      "violations": 1,
-      "details": [
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "nodes": 1
-        }
-      ]
+      "violations": 0,
+      "details": []
     },
     "/helpcenter": {
       "violations": 0,
@@ -99,47 +73,41 @@
       ]
     },
     "/contact/sales": {
-      "violations": 1,
-      "details": [
-        {
-          "id": "label-content-name-mismatch",
-          "impact": "serious",
-          "nodes": 1
-        }
-      ]
+      "violations": 0,
+      "details": []
     }
   },
   "visualDiff": {
     "darkCompare": {
       "width": 1440,
       "height": 3000,
-      "diffPixels": 396818,
-      "diffPercent": 9.19
+      "diffPixels": 503583,
+      "diffPercent": 11.66
     },
     "lightCompare": {
       "width": 1440,
       "height": 3000,
-      "diffPixels": 581711,
-      "diffPercent": 13.47
+      "diffPixels": 529804,
+      "diffPercent": 12.26
     }
   },
   "routeReport": [
     {
       "route": "/",
       "status": 200,
-      "brokenImgs": 1,
+      "brokenImgs": 0,
       "overflow": false
     },
     {
       "route": "/features",
       "status": 200,
-      "brokenImgs": 1,
+      "brokenImgs": 0,
       "overflow": false
     },
     {
       "route": "/integrations",
       "status": 200,
-      "brokenImgs": 1,
+      "brokenImgs": 0,
       "overflow": false
     },
     {
@@ -193,7 +161,7 @@
     {
       "route": "/uikit",
       "status": 200,
-      "brokenImgs": 1,
+      "brokenImgs": 22,
       "overflow": false
     },
     {

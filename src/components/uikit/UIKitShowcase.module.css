@@ -134,25 +134,25 @@
 
 .grid3 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: 16px;
 }
 
 @media (min-width: 760px) {
   .grid3 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 .grid2 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: 16px;
 }
 
 @media (min-width: 760px) {
   .grid2 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -162,6 +162,8 @@
   background: var(--surface-primary);
   padding: 20px;
   box-shadow: var(--shadow-card);
+  min-width: 0;
+  overflow-x: clip;
 }
 
 .badgePill {

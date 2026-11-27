@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react';
 import { CheckCircle2, Pause, Play, Plus, Sparkles } from 'lucide-react';
 import { siteConfig } from '@/config/site';
-import { SplitHeading } from '@/components/primitives/SplitHeading';
 import { Button } from '@/components/primitives/Button';
 import styles from './HomeHeroShowcase.module.css';
 
