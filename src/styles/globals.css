@@ -1,0 +1,184 @@
+@import './tokens.css';
+@import './themes/dark.css';
+@import './themes/light.css';
+
+/* Local Authorized Font Faces (Exact extracted Google/Framer WOFF2 binaries) */
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/assets/fonts/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0SZe1Q.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/assets/fonts/pxitypc9vsFDm051Uf6KVwgkfoSbSnNPooZAN0lInHGpCWNu15GR.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/yDtI2UI8XcEg1W2je9XPN3Noo.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fragment Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2') format('woff2');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+  line-height: 22px;
+  color: var(--text-secondary);
+  background-color: var(--page-background);
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--page-pattern-color),
+    var(--page-pattern-color) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  min-height: 100vh;
+  overflow-x: clip;
+  transition: background-color 220ms ease, color 220ms ease;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Focus accessibility */
+:focus-visible {
+  outline: 2px solid var(--accent-purple);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 9999;
+  padding: 10px 16px;
+  background: var(--accent-purple);
+  color: #ffffff;
+  border-radius: var(--radius-button);
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  left: 16px;
+  top: 16px;
+}
+
+/* Shared container helpers */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.container-narrow {
+  width: 100%;
+  max-width: 720px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.diagonal-panel {
+  background-color: var(--pricing-standard-inset);
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--pricing-standard-stripe),
+    var(--pricing-standard-stripe) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+}
+
+.diagonal-panel-featured {
+  background-color: var(--pricing-featured-inset);
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--pricing-featured-stripe),
+    var(--pricing-featured-stripe) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
