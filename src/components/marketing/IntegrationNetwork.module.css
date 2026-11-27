@@ -1,0 +1,195 @@
+.section {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 120px 24px 0;
+}
+
+.rectWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nodeColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 240px;
+}
+
+.nodeCard {
+  width: 100%;
+  height: 48px;
+  padding: 0 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.nodeCard:hover {
+  border-color: rgba(134, 36, 255, 0.55);
+  transform: translateY(-1px);
+}
+
+.nodeIcon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+:global(html.light) .nodeIcon {
+  filter: invert(1) brightness(0.2);
+}
+
+.connectorLine {
+  position: relative;
+  width: 2px;
+  height: 52px;
+  background: var(--border-subtle);
+  overflow: hidden;
+}
+
+.connectorPulse {
+  position: absolute;
+  left: 0;
+  top: -18px;
+  width: 2px;
+  height: 18px;
+  background: linear-gradient(180deg, transparent, #8624ff, transparent);
+  animation: pulseDown 2.2s linear infinite;
+}
+
+@keyframes pulseDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(72px);
+  }
+}
+
+.centerHub {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  border-radius: 22px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 36px rgba(134, 36, 255, 0.25);
+}
+
+.centerHubInner {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  border: 1px solid rgba(134, 36, 255, 0.45);
+  background: var(--surface-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectHeader {
+  max-width: 540px;
+  margin: 44px auto 0;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 12px;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--text-secondary);
+}
+
+/* Circular Hero Network (Integrations Page & UI Kit) */
+.circularHero {
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto 28px;
+  padding: 20px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mask-image: radial-gradient(circle at 50% 50%, #000 32%, rgba(0, 0, 0, 0.25) 68%, transparent 94%);
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 32%, rgba(0, 0, 0, 0.25) 68%, transparent 94%);
+}
+
+.circularGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 68px);
+  grid-template-rows: repeat(3, 68px);
+  gap: 28px;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 560px) {
+  .circularGrid {
+    grid-template-columns: repeat(5, 48px);
+    grid-template-rows: repeat(3, 48px);
+    gap: 14px;
+  }
+}
+
+.circularNode {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-card);
+  z-index: 2;
+}
+
+@media (max-width: 560px) {
+  .circularNode {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.circularCenter {
+  width: 68px;
+  height: 68px;
+  border-radius: 999px;
+  background: linear-gradient(145deg, #9845ff, #8624ff);
+  border: 4px solid rgba(134, 36, 255, 0.3);
+  box-shadow: 0 0 48px 10px rgba(134, 36, 255, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.gridLines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .connectorPulse {
+    animation: none;
+  }
+}

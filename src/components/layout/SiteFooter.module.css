@@ -1,0 +1,124 @@
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px 48px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: space-between;
+}
+
+@media (min-width: 820px) {
+  .top {
+    flex-direction: row;
+    gap: 64px;
+  }
+}
+
+.brandCol {
+  max-width: 280px;
+}
+
+.tagline {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--text-secondary);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(110px, 1fr));
+  gap: 32px;
+}
+
+@media (max-width: 520px) {
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.colTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.linkList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link {
+  font-size: 14px;
+  color: var(--text-secondary);
+  transition: color 150ms ease;
+}
+
+.link:hover {
+  color: var(--text-primary);
+}
+
+.bottom {
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 1px solid var(--divider);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media (min-width: 680px) {
+  .bottom {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.copyright {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.copyright a {
+  color: var(--text-secondary);
+  transition: color 150ms ease;
+}
+
+.copyright a:hover {
+  color: var(--text-primary);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease;
+}
+
+.socialBtn:hover {
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+  background: var(--surface-raised);
+}

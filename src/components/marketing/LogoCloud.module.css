@@ -1,0 +1,92 @@
+.section {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 56px 24px 20px;
+  text-align: center;
+}
+
+.compact {
+  padding: 20px 0 0;
+  text-align: left;
+}
+
+.caption {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.caption strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.marqueeViewport {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 14%, #000 86%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 14%, #000 86%, transparent 100%);
+}
+
+.marqueeTrack {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  width: max-content;
+  animation: logoScroll 28s linear infinite;
+}
+
+.marqueeViewport:hover .marqueeTrack {
+  animation-play-state: paused;
+}
+
+@keyframes logoScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logoItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.72;
+  transition: opacity 160ms ease;
+  flex-shrink: 0;
+}
+
+.logoItem:hover {
+  opacity: 1;
+}
+
+.logoIcon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  filter: var(--logo-filter, none);
+}
+
+:global(html.light) .logoIcon {
+  filter: invert(1) brightness(0.25);
+}
+
+.logoName {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+}

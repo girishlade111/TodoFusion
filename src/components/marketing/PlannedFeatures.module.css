@@ -1,0 +1,121 @@
+.section {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 120px 24px 0;
+}
+
+.header {
+  max-width: 640px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 14px;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--text-secondary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 36px 28px;
+}
+
+@media (min-width: 680px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 44px 36px;
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.iconTile {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.iconTile::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.24;
+  pointer-events: none;
+}
+
+.purple {
+  color: #a87fff;
+}
+.purple::before {
+  background: radial-gradient(circle at 50% 30%, #8624ff, transparent 70%);
+}
+
+.orange {
+  color: #f49d0b;
+}
+.orange::before {
+  background: radial-gradient(circle at 50% 30%, #f49d0b, transparent 70%);
+}
+
+.lime {
+  color: #95b500;
+}
+.lime::before {
+  background: radial-gradient(circle at 50% 30%, #95b500, transparent 70%);
+}
+
+.pink {
+  color: #e973bb;
+}
+.pink::before {
+  background: radial-gradient(circle at 50% 30%, #e973bb, transparent 70%);
+}
+
+.cyan {
+  color: #22d2ed;
+}
+.cyan::before {
+  background: radial-gradient(circle at 50% 30%, #22d2ed, transparent 70%);
+}
+
+.coral {
+  color: #f23f5d;
+}
+.coral::before {
+  background: radial-gradient(circle at 50% 30%, #f23f5d, transparent 70%);
+}
+
+.itemTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.itemDesc {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--text-secondary);
+}

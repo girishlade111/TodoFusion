@@ -1,0 +1,138 @@
+.section {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 120px 24px 0;
+}
+
+.intro {
+  max-width: 640px;
+  margin: 0 auto 48px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+@media (min-width: 820px) {
+  .columns {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tallCard {
+  min-height: 290px;
+}
+
+.featuredPurple {
+  background: linear-gradient(155deg, #9845ff 0%, #8624ff 55%, #6d12e8 100%);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 20px 50px -10px rgba(134, 36, 255, 0.48);
+  color: #ffffff;
+  min-height: 290px;
+}
+
+.companyRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.companyLogo {
+  height: 22px;
+  width: auto;
+  object-fit: contain;
+}
+
+.companyName {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.quote {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--text-secondary);
+}
+
+.featuredPurple .quote {
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.footerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 17px;
+}
+
+.featuredPurple .name {
+  color: #ffffff;
+}
+
+.role {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 16px;
+}
+
+.featuredPurple .role {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.quoteIcon {
+  opacity: 0.35;
+  flex-shrink: 0;
+}

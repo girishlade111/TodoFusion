@@ -1,0 +1,499 @@
+.section {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 120px 24px 0;
+}
+
+.header {
+  max-width: 640px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 14px;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--text-secondary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 760px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1060px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .scheduleCard {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+}
+
+.card {
+  border-radius: 16px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  box-shadow: var(--shadow-card);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.cardDesc {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 19px;
+  color: var(--text-secondary);
+}
+
+.inset {
+  border-radius: 12px;
+  border: 1px solid var(--border-faint);
+  background: var(--surface-inset);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Card 1: Time tracking */
+.timerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--surface-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.timerLabel {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.timerLime {
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent-lime);
+}
+
+.timerMetaRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0 4px;
+}
+
+/* Card 2: Focused Intervals */
+.toggleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.switchBtn {
+  width: 36px;
+  height: 20px;
+  border-radius: 999px;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 180ms ease;
+}
+
+.switchKnob {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: #ffffff;
+  transition: transform 180ms ease;
+}
+
+.intervalRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.pickerBtn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.popover {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  min-width: 92px;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  box-shadow: var(--shadow-floating);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+}
+
+.popoverOption {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.popoverOption:hover,
+.popoverOptionActive {
+  background: var(--surface-raised);
+  color: var(--text-primary);
+}
+
+/* Card 3: Schedule Tasks (2-row span, layered calendar + time/recurrence) */
+.scheduleStage {
+  position: relative;
+  flex: 1;
+  min-height: 410px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calendarPanel {
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-inset);
+  padding: 12px;
+  font-size: 11px;
+}
+
+.quickChips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  color: var(--text-muted);
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.quickChip {
+  padding: 2px 6px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.quickChip:hover {
+  background: var(--surface-raised);
+  color: var(--text-primary);
+}
+
+.calHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.calGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
+  text-align: center;
+}
+
+.calDayName {
+  font-size: 10px;
+  color: var(--text-muted);
+  padding: 2px 0;
+}
+
+.calDayBtn {
+  height: 22px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calDayBtn:hover {
+  background: var(--surface-raised);
+  color: var(--text-primary);
+}
+
+.calDayActive {
+  background: var(--accent-cyan);
+  color: #121218;
+  font-weight: 700;
+}
+
+.recurrencePanel {
+  margin-left: auto;
+  width: 88%;
+  border-radius: 12px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface-primary);
+  box-shadow: var(--shadow-floating);
+  padding: 12px;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.timeInputs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.timeChip {
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--surface-inset);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+
+.recurList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.recurBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 11px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.recurBtnActive {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.actionPair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.btnDarkSmall {
+  height: 28px;
+  border-radius: 7px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-raised);
+  color: var(--text-primary);
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btnCyanSmall {
+  height: 28px;
+  border-radius: 7px;
+  border: none;
+  background: var(--accent-cyan);
+  color: #121218;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Card 4: Checklist joy */
+.checkRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: var(--surface-primary);
+  border: 1px solid var(--border-subtle);
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 13px;
+  transition: border-color 160ms ease;
+}
+
+.checkRow:hover {
+  border-color: var(--border-strong);
+}
+
+.checkCircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  border: 1.5px solid var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.checkCircleDone {
+  background: var(--accent-lime);
+  border-color: var(--accent-lime);
+  color: #121218;
+}
+
+/* Card 5: Task hub */
+.hubHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hubBadge {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--accent-pink);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hubRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--surface-primary);
+  border: 1px solid var(--border-subtle);
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+/* Card 6: Notes */
+.noteToolbar {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.noteToolBtn {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.noteToolBtnActive {
+  background: var(--surface-raised);
+  color: var(--text-primary);
+}
+
+/* Card 7: Share list copy */
+.shareInput {
+  width: 100%;
+  height: 32px;
+  padding: 0 10px;
+  border-radius: 7px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-primary);
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+.shareLightBtn {
+  height: 34px;
+  border-radius: 8px;
+  border: none;
+  background: var(--button-light-bg);
+  color: var(--button-light-text);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* Card 8: Alerts */
+.alertTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-orange);
+}
